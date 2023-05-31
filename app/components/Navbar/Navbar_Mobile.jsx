@@ -38,14 +38,14 @@ export default function Navbar() {
                 </div>
             </div>
             <div id='contenedor-hamburguesa__navbar-mobile' className='hm-hidden'>
-                <div className="item-list-navbar-mobile">About Me</div>
+                <div className="item-list-navbar-mobile">Sobre Mi</div>
                 <div className="item-list-navbar-mobile">Proyectos</div>
                 <div className="item-list-navbar-mobile">Contacto</div>
                 <div className="item-list-navbar-mobile">
-                    <Link href='https://google.com'><FiInstagram className='logo-social-media__navbar-mobile' /></Link>
-                    <Link href='https://google.com'><GrLinkedinOption className='logo-social-media__navbar-mobile' /></Link>
-                    <Link href='https://google.com'><BsGithub className='logo-social-media__navbar-mobile' /></Link>
-                    <Link href='https://google.com'><BsWhatsapp className='logo-social-media__navbar-mobile' /></Link>
+                    <Link id='contenedor-social-media__navbar' href='https://google.com'><FiInstagram className='logo-social-media__navbar-mobile' /></Link>
+                    <Link id='contenedor-social-media__navbar' href='https://google.com'><GrLinkedinOption className='logo-social-media__navbar-mobile' /></Link>
+                    <Link id='contenedor-social-media__navbar' href='https://google.com'><BsGithub className='logo-social-media__navbar-mobile' /></Link>
+                    <Link id='contenedor-social-media__navbar' href='https://google.com'><BsWhatsapp className='logo-social-media__navbar-mobile' /></Link>
                 </div>
             </div>
         </>

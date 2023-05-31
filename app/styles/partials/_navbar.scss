@@ -41,12 +41,13 @@
         height: 100%;
     }
 
-    @keyframes bg-animate {
-        25% {
-            background-color: #525252;
-        }
+    #contenedor-hamburguesa__navbar-mobile {
+        transition: .5s ease-in-out;
+        min-height: 0px;
+    }
 
-        25% {
+    @keyframes bg-animate {
+        0% {
             background-color: #404040;
         }
 
@@ -55,20 +56,19 @@
         }
     }
 
-    .hm-hidden{
+    .hm-hidden {
         display: none;
     }
 
     .hm-visible {
-        min-height: 1vh;
-        transition: .5s ease-in-out;
+        min-height: 1px;
         animation-name: bg-animate;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
         animation-iteration-count: 1;
         background-color: #262626;
     }
 
-    .item-list-navbar-mobile{
+    .item-list-navbar-mobile {
         border-bottom: 1px solid gray;
         height: 3rem;
         display: flex;
@@ -78,5 +78,27 @@
         padding: 2.2rem;
         color: #e7e5e4;
         font-weight: 300;
+
+        &::selection {
+            background-color: transparent;
+        }
+    }
+
+    .item-list-navbar-mobile:nth-child(4) {
+        /* border: 3px solid red; */
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #contenedor-social-media__navbar {
+        /* border: 2px solid yellow; */
+        width: 3rem;
+        height: 3rem;
+        padding: .5rem;
+    }
+
+    .logo-social-media__navbar-mobile {
+        height: 100%;
+        width: 100%;
     }
 }
