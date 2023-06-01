@@ -1,7 +1,7 @@
 
 
 export default function Home_P1() {
-  const var_text = `<Desarrollador Web/>`
+  const var_text = `<Desarrollador Web>`
 
   return (
     <div id="container-general__Home_P1">
@@ -9,6 +9,7 @@ export default function Home_P1() {
       <div id="container-info__Home-P1">
         <h2 className="item-text__Home-P1">Argüello Ignacio</h2>
         <h3 className="item-text__Home-P1">{var_text}</h3>
+        <div id="button-descargarCV__Home__P1">Descargar CV</div>
       </div>
     </div>
   )

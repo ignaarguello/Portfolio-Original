@@ -296,21 +296,43 @@
 }
 
 @media screen and (min-width: 360px) {
+  @-webkit-keyframes gradient-animation {
+    0% {
+      background-position: 0% 60%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 60%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
   #container-general__Home_P1 {
     /* border: 2px solid red; */
-    margin-top: 3rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     padding: .7rem;
+    height: 80vh;
+    background: -webkit-gradient(linear, left bottom, right top, from(#111111), to(black));
+    background: linear-gradient(to top right, #111111, black);
+    background-size: 200% auto;
+    -webkit-animation: gradient-animation 5s linear infinite;
+            animation: gradient-animation 5s linear infinite;
+    padding-top: 5rem;
   }
   #image-home_P1 {
-    width: 11rem;
+    width: 10rem;
     height: 20rem;
     -o-object-fit: cover;
        object-fit: cover;
-    -o-object-position: -55px;
-       object-position: -55px;
+    -o-object-position: -64px;
+       object-position: -64px;
     border-radius: 0px 30px 00px 30px;
   }
   #container-info__Home-P1 {
@@ -329,10 +351,25 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    gap: .5rem;
+    padding-top: 2rem;
+    height: 20rem;
   }
   .item-text__Home-P1 {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+  }
+  #button-descargarCV__Home__P1 {
+    margin-top: .3rem;
+    background-color: #047857;
+    color: white;
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 85%;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=styles.css.map */
