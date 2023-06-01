@@ -31,7 +31,7 @@ export default function Navbar() {
         <>
             <div id='container-general__navbar-mobile'>
                 <div className="containers-navbar">
-                    <img src="./images/logo-ia.png" alt="Logo Arguello Ignacio Developer" id='logo-ia' />
+                    <img src="../images/logo-ia.png" alt="Logo Arguello Ignacio Developer" id='logo-ia' />
                 </div>
                 <div className="containers-navbar">
                     <Bars3Icon id='icon-nav-mobile' onClick={getVisibleMenuHM} />
