@@ -14,18 +14,18 @@ export default function Navbar_Desktop() {
         <>
             <div id='container-general__navbar-desktop'>
                 <div className="containers-navbar-desktop">
-                    <img src="../images/logo-ia.png" alt="Logo Arguello Ignacio Developer" id='logo-ia-desktop' />
+                    <Link href='https://google.com'> <img src="../images/logo-ia.png" alt="Logo Arguello Ignacio Developer" id='logo-ia-desktop' /></Link>
                 </div>
                 <div className="containers-navbar-desktop">
-                    <Link id='contenedor-social-media__navbar-desktop' href='https://google.com'>Sobre Mi</Link>
-                    <Link id='contenedor-social-media__navbar-desktop' href='https://google.com'>Proyectos</Link>
-                    <Link id='contenedor-social-media__navbar-desktop' href='https://google.com'>Contacto</Link>
+                    <Link id='link-ref__navbar-desktop' href='https://google.com'>Sobre Mi</Link>
+                    <Link id='link-ref__navbar-desktop' href='https://google.com'>Proyectos</Link>
+                    <Link id='link-ref__navbar-desktop' href='https://google.com'>Contacto</Link>
                 </div>
                 <div className="containers-navbar-desktop">
-                    <Link id='contenedor-social-media__navbar' href='https://google.com'><FiInstagram className='logo-social-media__navbar-mobile' /></Link>
-                    <Link id='contenedor-social-media__navbar' href='https://google.com'><GrLinkedinOption className='logo-social-media__navbar-mobile' /></Link>
-                    <Link id='contenedor-social-media__navbar' href='https://google.com'><BsGithub className='logo-social-media__navbar-mobile' /></Link>
-                    <Link id='contenedor-social-media__navbar' href='https://google.com'><BsWhatsapp className='logo-social-media__navbar-mobile' /></Link>
+                    <Link id='contenedor-social-media__navbar-desktop' href='https://google.com'><FiInstagram className='logo-social-media__navbar-desktop' /></Link>
+                    <Link id='contenedor-social-media__navbar-desktop' href='https://google.com'><GrLinkedinOption className='logo-social-media__navbar-desktop' /></Link>
+                    <Link id='contenedor-social-media__navbar-desktop' href='https://google.com'><BsGithub className='logo-social-media__navbar-desktop' /></Link>
+                    <Link id='contenedor-social-media__navbar-desktop' href='https://google.com'><BsWhatsapp className='logo-social-media__navbar-desktop' /></Link>
                 </div>
             </div>
         </>
