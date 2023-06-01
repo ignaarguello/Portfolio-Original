@@ -6,7 +6,6 @@
         display: flex;
         background-color: #141414;
         padding: .5rem;
-        position: fixed;
         width: 100%;
     }
 
@@ -46,8 +45,6 @@
     #contenedor-hamburguesa__navbar-mobile {
         transition: .5s ease-in-out;
         min-height: 0px;
-        position: relative;
-        top: 3.5rem;
     }
 
     @keyframes bg-animate {
@@ -119,10 +116,6 @@
     .item-list-navbar-mobile {
         font-size: 16px;
     }
-
-    #contenedor-hamburguesa__navbar-mobile {
-        top: 4.7rem;
-    }
 }
 
 
@@ -133,10 +126,6 @@
 
     .containers-navbar:nth-child(2) {
         padding: 1rem;
-    }
-
-    #contenedor-hamburguesa__navbar-mobile {
-        top: 4.5rem;
     }
 }
 
@@ -153,10 +142,6 @@
 
     .item-list-navbar-mobile {
         font-size: 20px;
-    }
-
-    #contenedor-hamburguesa__navbar-mobile {
-        top: 6rem;
     }
 }
 
