@@ -28,7 +28,7 @@ export default function Navbar() {
     }
 
     return (
-        <>
+        <div className='flex flex-col'>
             <div id='container-general__navbar-mobile'>
                 <div className="containers-navbar">
                     <img src="../images/logo-ia.png" alt="Logo Arguello Ignacio Developer" id='logo-ia' />
@@ -48,7 +48,6 @@ export default function Navbar() {
                     <Link id='contenedor-social-media__navbar' href='https://google.com'><BsWhatsapp className='logo-social-media__navbar-mobile' /></Link>
                 </div>
             </div>
-        </>
-
+        </div>
     )
 }

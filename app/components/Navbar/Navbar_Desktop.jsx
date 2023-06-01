@@ -13,18 +13,15 @@ export default function Navbar_Desktop() {
     return (
         <>
             <div id='container-general__navbar-desktop'>
-                <div className="containers-navbar">
-                    <img src="../images/logo-ia.png" alt="Logo Arguello Ignacio Developer" id='logo-ia' />
+                <div className="containers-navbar-desktop">
+                    <img src="../images/logo-ia.png" alt="Logo Arguello Ignacio Developer" id='logo-ia-desktop' />
                 </div>
-                <div className="containers-navbar">
-                    <Bars3Icon id='icon-nav-mobile' onClick={getVisibleMenuHM} />
+                <div className="containers-navbar-desktop">
+                    <Link id='contenedor-social-media__navbar-desktop' href='https://google.com'>Sobre Mi</Link>
+                    <Link id='contenedor-social-media__navbar-desktop' href='https://google.com'>Proyectos</Link>
+                    <Link id='contenedor-social-media__navbar-desktop' href='https://google.com'>Contacto</Link>
                 </div>
-            </div>
-            <div id='contenedor-hamburguesa__navbar-mobile' className='hm-hidden'>
-                <div className="item-list-navbar-mobile">Sobre Mi</div>
-                <div className="item-list-navbar-mobile">Proyectos</div>
-                <div className="item-list-navbar-mobile">Contacto</div>
-                <div className="item-list-navbar-mobile">
+                <div className="containers-navbar-desktop">
                     <Link id='contenedor-social-media__navbar' href='https://google.com'><FiInstagram className='logo-social-media__navbar-mobile' /></Link>
                     <Link id='contenedor-social-media__navbar' href='https://google.com'><GrLinkedinOption className='logo-social-media__navbar-mobile' /></Link>
                     <Link id='contenedor-social-media__navbar' href='https://google.com'><BsGithub className='logo-social-media__navbar-mobile' /></Link>

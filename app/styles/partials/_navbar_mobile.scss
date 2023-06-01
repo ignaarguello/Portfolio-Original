@@ -156,6 +156,16 @@
     }
 
     #contenedor-hamburguesa__navbar-mobile {
-        top: 6.2rem;
+        top: 6rem;
+    }
+}
+
+@media screen and (min-width:900px) {
+    #container-general__navbar-mobile {
+        display: none;
+    }
+
+    #contenedor-hamburguesa__navbar-mobile {
+       display: none;
     }
 }
