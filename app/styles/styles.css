@@ -319,8 +319,8 @@
     display: flex;
     padding: .7rem;
     height: 80vh;
-    background: -webkit-gradient(linear, left bottom, right top, from(#111111), to(black));
-    background: linear-gradient(to top right, #111111, black);
+    background: -webkit-gradient(linear, left bottom, right top, from(red), to(green));
+    background: linear-gradient(to top right, red, green);
     background-size: 200% auto;
     -webkit-animation: gradient-animation 5s linear infinite;
             animation: gradient-animation 5s linear infinite;
