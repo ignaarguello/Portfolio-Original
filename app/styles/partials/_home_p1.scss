@@ -3,7 +3,11 @@
 @media screen and (min-width:360px) {
     @keyframes gradient-animation {
         0% {
-            background-position: 0% 60%;
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 50% 0%;
         }
 
         100% {
@@ -14,44 +18,51 @@
     #container-general__Home_P1 {
         /* border: 2px solid red; */
         display: flex;
+        flex-direction: column;
         padding: .7rem;
-        height: 80vh;
-
-        background: linear-gradient(to top right, red, green);
+        height: 90vh;
+        background: linear-gradient(to top left, rgb(61, 61, 61), rgb(0, 0, 0));
         background-size: 200% auto;
         animation: gradient-animation 5s linear infinite;
-
-        padding-top: 5rem;
     }
 
     #image-home_P1 {
-        width: 10rem;
-        height: 20rem;
+        /* border: 2px solid green; */
+        width: 7rem;
+        height: 7rem;
         object-fit: cover;
-        object-position: -64px;
-        border-radius: 0px 30px 00px 30px;
+        border-radius: 50%;
+        margin: 1rem 0 0 1rem;
     }
 
     #container-info__Home-P1 {
         /* border: 2px solid green; */
         width: 100%;
+        margin-top: 2rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        gap: .5rem;
-        padding-top: 2rem;
+        gap: .3rem;
         height: 20rem;
     }
 
     .item-text__Home-P1 {
-        font-size: 17px;
+        font-size: 10px;
         font-weight: 300;
         color: white;
     }
 
+    .item-text__Home-P1:nth-child(1) {
+        font-size: 32px;
+    }
+
+    .item-text__Home-P1:nth-child(2) {
+        font-size: 15px;
+        color: #737373;
+    }
+
     #button-descargarCV__Home__P1 {
-        margin-top: .3rem;
+        margin-top: .2rem;
         background-color: #047857;
         color: white;
         padding: .5rem;
