@@ -8,9 +8,9 @@ export default function Home_P1() {
       <img id="image-home_P1" src="../images/Argüello Ignacio.jpg" alt="" />
       <div id="container-info__Home-P1">
         <h2 className="item-text__Home-P1 animate__animated animate__slideInRight">Argüello Ignacio</h2>
-        <h3 className="item-text__Home-P1 animate__animated animate__bounceIn animate__delay-1s animate__slow">{var_text}</h3>
+        <h3 className="item-text__Home-P1 animate__animated animate__fadeIn animate__delay-1s animate__slow">{var_text}</h3>
         <div id='container-texto__home__P1'>
-          <p id='texto-home__P1'>¡Hola! Mi nombre es Ignacio Argüello, soy Desarrollador Web especializado en crear experiencias digitales cautivadoras. Con una sólida base en diseño y desarrollo, mi objetivo es fusionar la estética y la funcionalidad para ofrecer soluciones web únicas y atractivas. Siempre busco crear experiencias digitales personalizadas y centradas en el usuario. Soy apasionado por la creación de sitios web intuitivos, accesibles y visualmente impactantes que generen un impacto duradero. Bienvenido a mi portfolio, acá podes explorar mis proyectos y descubrir mi enfoque en el desarrollo web. ¡Un placer tenerte aca!</p>
+          <p id='texto-home__P1' className='animate__animated animate__fadeIn animate__delay-2s animate__slow'>¡Hola! Mi nombre es Ignacio Argüello, soy Desarrollador Web especializado en crear experiencias digitales cautivadoras. Con una sólida base en diseño y desarrollo, mi objetivo es fusionar la estética y la funcionalidad para ofrecer soluciones web únicas y atractivas. Siempre busco crear experiencias digitales personalizadas y centradas en el usuario. Soy apasionado por la creación de sitios web intuitivos, accesibles y visualmente impactantes que generen un impacto duradero. Bienvenido a mi portfolio, acá podes explorar mis proyectos y descubrir mi enfoque en el desarrollo web. ¡Un placer tenerte aca!</p>
         </div>
         {/* <div id="button-descargarCV__Home__P1">Descargar CV</div> */}
       </div>
