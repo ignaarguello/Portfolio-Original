@@ -28,7 +28,7 @@ export default function Navbar() {
     }
 
     return (
-        <div className='flex flex-col'>
+        <div className='flex flex-col sticky top-0'>
             <div id='container-general__navbar-mobile'>
                 <div className="containers-navbar">
                     <img src="../images/logo-ia.png" alt="Logo Arguello Ignacio Developer" id='logo-ia' />
