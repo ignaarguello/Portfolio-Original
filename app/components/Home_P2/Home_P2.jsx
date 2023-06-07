@@ -30,6 +30,7 @@ export default function Home_P2() {
 
   const alternativeSkills = skillsFrontend.slice(4, 6)
 
+  
   return (
     <div id="container-general__Home__P2">
       <h2 id='titulo-habilidades__Home-P2'>Habilidades Técnicas:</h2>
