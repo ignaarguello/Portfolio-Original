@@ -47,7 +47,6 @@ export default function Home_P2() {
               <div className='cont-eachSkill__Home-P2'>
                 <h2 className='nombre-skill'>{elem?.nombre?.toUpperCase()}</h2>
                 {elem?.logo}
-                <h2>Hola</h2>
               </div>
             </>
           )
