@@ -21,9 +21,7 @@ export default function Home_P2() {
     { "nombre": 'Express', "logo": <SiExpress className='logo-skill' />, },
     { "nombre": 'MongoDB', "logo": <SiMongodb className='logo-skill' />, },
   ]
-
-
-
+  
   return (
     <div id="container-general__Home__P2">
       <hr />
