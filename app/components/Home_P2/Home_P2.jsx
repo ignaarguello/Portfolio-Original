@@ -37,7 +37,7 @@ export default function Home_P2() {
         {/* Comienzo de contenedor FRONTEND */}
         {
           skillsFrontend.map(elem =>
-            <div className='mt-2'>
+            <div className='mt-2' key={elem[elem]}>
               <h2 className='titulo-stack__Home-P2'>{elem?.titulo}</h2>
               <div className='cont-eachSkill__Home-P2'>
                 <h2 className='nombre-skill'>{elem?.nombre?.toUpperCase()}</h2>

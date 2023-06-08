@@ -486,7 +486,6 @@
 @media screen and (min-width: 375px) {
   #container-general__Home_P1 {
     /* border: 2px solid red; */
-    min-height: 112vh;
   }
   #image-home_P1 {
     /* border: 2px solid green; */
@@ -596,6 +595,93 @@
     width: 4.2rem;
     padding: .7rem;
     color: #404040;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  #container-general__Home-P3 {
+    /* border: 2px solid red; */
+    height: 100vh;
+    background-color: white;
+  }
+  #titulo-proyectos__Home-P3 {
+    font-size: 25px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2rem;
+    color: #9333ea;
+  }
+  #contenedor-cards-projects__Home-P3 {
+    /* border: 2px solid slateblue; */
+    margin-top: 2rem;
+    padding: .5rem;
+  }
+  .card-project__Home-P3 {
+    /* border: 2px solid firebrick; */
+    height: 11.9rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+  }
+  .card-project__Home-P3:hover {
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.568);
+  }
+  .container-refs__Home-P3 {
+    /* border: 2px solid green; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1rem;
+  }
+  .nombre_card_project__Home-P3 {
+    padding: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    z-index: 2;
+    color: white;
+    text-align: center;
+  }
+  .cont-ref__Home-P3 {
+    border: 2px solid gray;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: .6rem;
+  }
+  .btn-ref__Home-P3 {
+    width: 100%;
+    height: 100%;
+    color: white;
   }
 }
 /*# sourceMappingURL=styles.css.map */
