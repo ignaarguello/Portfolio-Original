@@ -28,9 +28,8 @@ export default function Home_P2() {
     { "nombre": 'api rest', "logo": <AiOutlineApi className='logo-skill' />, },
   ]
 
-  const alternativeSkills = skillsFrontend.slice(4, 6)
+  const alternativeSkills = skillsFrontend.slice(4, 7)
 
-  
   return (
     <div id="container-general__Home__P2">
       <h2 id='titulo-habilidades__Home-P2'>Habilidades Técnicas:</h2>
