@@ -12,6 +12,18 @@ export default function Home_P3() {
             url_gh: 'https://github.com/ignaarguello/Salute---front',
             url_deploy: 'https://salute-front.vercel.app/',
         },
+        {
+            nombre: 'Retro Team Football Clothing',
+            imagen: '/images/rtfc.png',
+            url_gh: 'https://github.com/nehuen-aumedes-diez/Mindhub-Challengue-RFTC-Front',
+            url_deploy: 'https://rftc-web.vercel.app/',
+        },
+        {
+            nombre: 'Eugenia - Nextia',
+            imagen: '/images/eugenia2.png',
+            url_gh: 'https://github.com/ignaarguello/Challenge-Nextia-MX---Front',
+            url_deploy: 'https://nextiafront.vercel.app/sign-in',
+        },
     ]
 
     return (
@@ -21,7 +33,7 @@ export default function Home_P3() {
                 {
                     proyectos.map(elem =>
                         <div className="card-project__Home-P3" style={{
-                            backgroundImage: "url('/images/salute-drinks.png')",
+                            backgroundImage: `url(${elem.imagen})`,
                             backgroundSize: "contain",
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat"
