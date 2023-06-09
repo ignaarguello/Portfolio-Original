@@ -34,18 +34,3 @@ export default function Home_P3() {
         </div >
     )
 }
-{/* <div className="container-imagen__Home-P3">
-    <img className="imagen-card-project__Home-P3" src={elem.imagen} alt={elem.nombre} />
-</div>
-<div className="body-card-project__Home-P2">
-    <h2 className='nombre_card_project__Home-P2'>{elem.nombre}</h2>
-    <div className='container-refs__Home-P2'>
-        <Link className='cont-ref__Home-P2' href={elem.url_gh}>
-            <BsGithub className='btn-ref__Home-P2' />
-            <BsFillShareFill className='btn-ref__Home-P2' />
-        </Link>
-        <Link className='cont-ref__Home-P2' href={elem.url_deploy}>
-            <BsFillShareFill className='btn-ref__Home-P2' />
-        </Link>
-    </div>
-</div> */}
