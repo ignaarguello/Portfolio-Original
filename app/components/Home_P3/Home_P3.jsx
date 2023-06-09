@@ -2,29 +2,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { BsGithub } from "react-icons/bs";
 import { BsFillShareFill } from "react-icons/bs";
+import { proyectos } from '../../data/data_projects'
 
 export default function Home_P3() {
-
-    const proyectos = [
-        {
-            nombre: 'Salute Drinks',
-            imagen: '/images/salute-drinks.png',
-            url_gh: 'https://github.com/ignaarguello/Salute---front',
-            url_deploy: 'https://salute-front.vercel.app/',
-        },
-        {
-            nombre: 'Retro Team Football Clothing',
-            imagen: '/images/rtfc.png',
-            url_gh: 'https://github.com/nehuen-aumedes-diez/Mindhub-Challengue-RFTC-Front',
-            url_deploy: 'https://rftc-web.vercel.app/',
-        },
-        {
-            nombre: 'Eugenia - Nextia',
-            imagen: '/images/eugenia2.png',
-            url_gh: 'https://github.com/ignaarguello/Challenge-Nextia-MX---Front',
-            url_deploy: 'https://nextiafront.vercel.app/sign-in',
-        },
-    ]
 
     return (
         <div id="container-general__Home-P3">
