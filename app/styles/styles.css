@@ -644,10 +644,10 @@
     transition: .5s ease;
     background-blend-mode: multiply;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.726);
+    background-color: transparent;
   }
   .card-project__Home-P3:hover {
-    background-color: rgba(0, 0, 0, 0.164);
+    background-color: rgba(0, 0, 0, 0.479);
   }
   .container-refs__Home-P3 {
     /* border: 2px solid green; */
