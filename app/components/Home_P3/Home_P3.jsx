@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { BsGithub } from "react-icons/bs";
 import { BsFillShareFill } from "react-icons/bs";
 import { proyectos } from '../../data/data_projects'
+import { BsArrowRight } from "react-icons/bs";
 
 export default function Home_P3() {
 
@@ -30,6 +31,10 @@ export default function Home_P3() {
                     )
                 }
             </div>
+            <Link id='container-ver-mas-proyectos__Home-P3' href='/pages/projects'>
+                <h2 id='titulo-ver-mas__Home-P3'>+ Ver más proyectos</h2>
+                <BsArrowRight  id='flecha-right__Home-P3' />
+            </Link>
         </div >
     )
 }
