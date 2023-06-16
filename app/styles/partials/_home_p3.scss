@@ -5,6 +5,7 @@
         /* border: 2px solid red; */
         height: 100vh;
         background-color: white;
+        border: none;
     }
 
     #titulo-proyectos__Home-P3 {
@@ -82,7 +83,6 @@
 
     #container-ver-mas-proyectos__Home-P3 {
         display: flex;
-        padding: .9rem;
         align-items: center;
         justify-content: center;
         gap: .5rem;
@@ -94,6 +94,7 @@
     #titulo-ver-mas__Home-P3 {
         font-weight: 300;
         font-size: 16px;
+        padding: 1.5rem 0;
     }
 
     @keyframes slide {
@@ -115,5 +116,6 @@
         height: 1.5rem;
         margin-top: 1px;
         animation: slide 1.5s linear infinite;
+
     }
 }
