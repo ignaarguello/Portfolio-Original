@@ -709,7 +709,7 @@
     gap: .5rem;
     background: -webkit-gradient(linear, right bottom, left top, from(#0c0c0c), to(black));
     background: linear-gradient(to top left, #0c0c0c, black);
-    margin: 1rem 0;
+    margin-top: 1rem;
     color: white;
   }
   #titulo-ver-mas__Home-P3 {
@@ -751,6 +751,12 @@
     margin-top: 1px;
     -webkit-animation: slide 1.5s linear infinite;
             animation: slide 1.5s linear infinite;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  #container-ver-mas-proyectos__Home-P3 {
+    margin-top: 2.5rem;
   }
 }
 
@@ -851,7 +857,7 @@
 @media screen and (min-width: 414px) {
   #container-general__Home-P4 {
     /*  border: 2px solid green; */
-    margin-top: -0.1rem;
+    margin-top: 0rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */

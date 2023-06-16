@@ -87,7 +87,7 @@
         justify-content: center;
         gap: .5rem;
         background: linear-gradient(to top left, rgb(12, 12, 12), rgb(0, 0, 0));
-        margin: 1rem 0;
+        margin-top: 1rem;
         color: white;
     }
 
@@ -116,6 +116,11 @@
         height: 1.5rem;
         margin-top: 1px;
         animation: slide 1.5s linear infinite;
+    }
+}
 
+@media screen and (min-width:360px) {
+    #container-ver-mas-proyectos__Home-P3 {
+        margin-top: 2.5rem;
     }
 }
