@@ -13,6 +13,7 @@ export default function Home_P4() {
                 <h2 id='titulo-contacto__Home-P4'>Contacto</h2>
                 <BsPatchCheckFill id='logo-contacto__Home-P4' />
             </div>
+            <h4 id='texto-contacto__Home-P4'>Te invito a conectarte conmigo a través de mis redes sociales.</h4>
             <div class="contenedor-grid-socialMedia__Home-P4">
                 <Link href='https://www.instagram.com/ignaarguello_/' class="item-grid-socialMedia__Home-P4">
                     <div className='cont-logo-socialMed__Home-P4'>
@@ -39,7 +40,6 @@ export default function Home_P4() {
                     <h3>Whatsapp</h3>
                 </Link>
             </div>
-            <h4 id='texto-contacto__Home-P4'>Te invito a conectarte conmigo a través de mis redes sociales.</h4>
         </div>
     )
 }
