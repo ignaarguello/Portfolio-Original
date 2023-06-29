@@ -47,10 +47,10 @@
     },
     "line_linked": {
       "enable": true,
-      "distance": 150,
+      "distance": 90,
       "color": "#000000",
       "opacity": 0.5,
-      "width": 1.5
+      "width": 1
     },
     "move": {
       "enable": true,
@@ -72,7 +72,7 @@
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "grab"
+        "mode": "repulse"
       },
       "onclick": {
         "enable": true,
