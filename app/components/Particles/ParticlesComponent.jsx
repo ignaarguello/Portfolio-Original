@@ -18,7 +18,7 @@ const ParticleComponent = () => {
     }, []);
 
     return (
-        <Particles id="tsparticles" className="contenedor-particles__Home-P1" url="./utils/particles.json" init={particlesInit} loaded={particlesLoaded} />
+        <Particles id="tsparticles" className="contenedor-particles__Home-P1" url="./utils/particlesjs-config.json" init={particlesInit} loaded={particlesLoaded} />
     );
 };
 

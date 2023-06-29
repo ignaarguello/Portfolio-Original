@@ -14,7 +14,7 @@ export default function Home_P3() {
                     proyectos.map(elem =>
                         <div className="card-project__Home-P3" style={{
                             backgroundImage: `url(${elem.imagen})`,
-                            backgroundSize: "contain",
+                            backgroundSize: "cover",
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat"
                         }} >

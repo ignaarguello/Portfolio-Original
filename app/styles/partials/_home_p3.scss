@@ -66,7 +66,7 @@
     }
 
     .cont-ref__Home-P3 {
-        border: 2px solid gray;
+        border: 2.5px solid gray;
         border-radius: 50%;
         height: 3rem;
         width: 3rem;
@@ -74,6 +74,7 @@
         justify-content: center;
         align-items: center;
         padding: .6rem;
+        background-color: rgba(0, 0, 0, 0.856);
     }
 
     .btn-ref__Home-P3 {
@@ -123,5 +124,10 @@
 @media screen and (min-width:414px) {
     #container-ver-mas-proyectos__Home-P3 {
         margin-top: 2.5rem;
+    }
+
+    .card-project__Home-P3 {
+        /* border: 2px solid firebrick; */
+        height: 13.5rem;     
     }
 }
