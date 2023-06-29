@@ -14,7 +14,7 @@ export default function Home_P4() {
                 <BsPatchCheckFill id='logo-contacto__Home-P4' />
             </div>
             <h4 id='texto-contacto__Home-P4'>Te invito a conectarte conmigo a través de mis redes sociales.</h4>
-            <div class="contenedor-grid-socialMedia__Home-P4">
+            <div className="contenedor-grid-socialMedia__Home-P4">
                 <Link href='https://www.instagram.com/ignaarguello_/' class="item-grid-socialMedia__Home-P4">
                     <div className='cont-logo-socialMed__Home-P4'>
                         <FiInstagram className='logo-socialMedia__Home-P4' />
