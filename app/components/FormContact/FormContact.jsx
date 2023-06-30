@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import '../../styles/styles.css'
 import axios from 'axios';
+import Swal from 'sweetalert2'
 
 export default function FormContact() {
     const [name, setName] = useState('');
@@ -16,9 +17,20 @@ export default function FormContact() {
                 email,
                 message,
             });
+            //Aca manejamos la respuesta en caso 'Exitoso'
+            Swal.fire({
+                title: `Email enviado con exito.`,
+                text: 'Ignacio ya recibió tu correo',
+                icon: 'success',
+            })
             alert('Mail enviado')
         } catch (error) {
-            alert(error)
+            //Aca manejamos la respuesta en caso de 'Error'
+            Swal.fire({
+                title: `Ocurrio un error`,
+                text: `Ha ocurrido un error: ${error.message}`,
+                icon: 'error',
+            })
         }
     };
 
