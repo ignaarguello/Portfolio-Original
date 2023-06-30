@@ -8,7 +8,7 @@ export default function Home_P3() {
 
     return (
         <div id="container-general__Home-P3">
-            <h2 id="titulo-proyectos__Home-P3">Proyectos</h2>
+            <h2 id="titulo-proyectos__Home-P3">Proyectos Relevantes</h2>
             <div id="contenedor-cards-projects__Home-P3">
                 {
                     proyectos.map(elem =>
@@ -33,7 +33,7 @@ export default function Home_P3() {
             </div>
             <Link id='container-ver-mas-proyectos__Home-P3' href='/pages/projects'>
                 <h2 id='titulo-ver-mas__Home-P3'>+ Ver más proyectos</h2>
-                <BsArrowRight  id='flecha-right__Home-P3' />
+                <BsArrowRight id='flecha-right__Home-P3' />
             </Link>
         </div >
     )

@@ -3,7 +3,7 @@
 @media screen and (min-width:360px) {
     #container-general__Home-P3 {
         /* border: 2px solid red; */
-        height: 100vh;
+        min-height: 100vh;
         background-color: white;
         border: none;
         z-index: 1;
@@ -89,14 +89,15 @@
         justify-content: center;
         gap: .5rem;
         background: linear-gradient(to top left, rgb(12, 12, 12), rgb(0, 0, 0));
-        margin-top: 1rem;
         color: white;
+        margin-top: 1rem;
     }
 
     #titulo-ver-mas__Home-P3 {
         font-weight: 300;
         font-size: 16px;
         padding: 1.5rem 0;
+        text-decoration: none;
     }
 
     @keyframes slide {

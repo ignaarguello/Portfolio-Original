@@ -4,11 +4,11 @@
     #container-general__Home-P4 {
         /*  border: 2px solid blue; */
         background-color: #f1f1f1;
-        margin-top: 1.9rem;
+        
         display: flex;
         flex-direction: column;
         align-items: center;
-        min-height: 60vh;
+        min-height: 130vh;
         z-index: 2;
     }
 
@@ -94,12 +94,27 @@
         margin: 0 1rem;
         text-align: center;
         color: #262626;
+        font-weight: 700;
+    }
+
+    .hr{
+        width: 100%;
+        border: 1.5px solid black;
+        margin: 10px 0;
+    }
+
+    .hr:nth-of-type(1){
+        width: 70%;
+    }
+    .hr:nth-of-type(2){
+        width: 50%;
+    }
+    .hr:nth-of-type(3){
+        width: 30%;
+        margin-bottom: 2rem;
     }
 }
 
 @media screen and (min-width:414px) {
-    #container-general__Home-P4 {
-         /* border: 2px solid green; */
-        margin-top: 4rem;
-    }
+    
 }

@@ -10,8 +10,12 @@ export default function Home_P4() {
                 <h2 id='titulo-contacto__Home-P4'>Contacto</h2>
                 <BsPatchCheckFill id='logo-contacto__Home-P4' />
             </div>
-            <h4 id='texto-contacto__Home-P4'>Te invito a conectarte conmigo a través de mis redes sociales.</h4>
             <FormContact />
+            <hr className="hr" />
+            <hr className="hr" />
+            <hr className="hr" />
+            <h4 id='texto-contacto__Home-P4'>Te invito a conectarte conmigo a través de mis redes sociales.</h4>
+            <SocialMediaGrid />
         </div>
     )
 }
