@@ -16,7 +16,7 @@
   background-color: transparent;
 }
 
-@media (min-width: 320px) {
+@media screen and (min-width: 320px) {
   #container-general__navbar-mobile {
     /* border: 2px solid red; */
     display: -webkit-box;
@@ -116,6 +116,7 @@
     padding: 2.2rem;
     color: #e7e5e4;
     font-weight: 300;
+    text-decoration: none;
   }
   .item-list-navbar-mobile::-moz-selection {
     background-color: transparent;
@@ -141,6 +142,7 @@
   .logo-social-media__navbar-mobile {
     height: 100%;
     width: 100%;
+    color: white;
   }
 }
 
@@ -157,11 +159,20 @@
 }
 
 @media screen and (min-width: 375px) {
+  .item-list-navbar-mobile {
+    font-size: 18px;
+  }
   .containers-navbar:nth-child(1) {
     padding: 1rem;
   }
   .containers-navbar:nth-child(2) {
     padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  .item-list-navbar-mobile {
+    font-size: 20px;
   }
 }
 
