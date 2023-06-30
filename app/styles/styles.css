@@ -283,6 +283,8 @@
     cursor: pointer;
     -webkit-transition: .3s ease;
     transition: .3s ease;
+    color: white;
+    text-decoration: none;
   }
   #link-ref__navbar-desktop:hover {
     color: #b8b8bb;
@@ -313,6 +315,7 @@
     width: 100%;
     -webkit-transition: .2s ease-in;
     transition: .2s ease-in;
+    color: white;
   }
   .logo-social-media__navbar-desktop:hover {
     color: #b8b8bb;

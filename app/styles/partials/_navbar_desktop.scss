@@ -64,6 +64,8 @@
         font-weight: 300;
         cursor: pointer;
         transition: .3s ease;
+        color: white;
+        text-decoration: none;
 
         &:hover {
             color: #b8b8bb;
@@ -88,7 +90,9 @@
         height: 100%;
         width: 100%;
         transition: .2s ease-in;
-        &:hover{
+        color: white;
+
+        &:hover {
             color: #b8b8bb;
         }
     }
