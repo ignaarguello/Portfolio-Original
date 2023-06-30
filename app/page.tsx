@@ -8,11 +8,11 @@ import ParticleComponent from './components/Particles/ParticlesComponent'
 export default function Home() {
   return (
     <div className='flex flex-col'>
-      <ParticleComponent />
       <Home_P1 />
       <Home_P2 />
       <Home_P3 />
       <Home_P4 />
+      <ParticleComponent />
     </div>
   )
 }
