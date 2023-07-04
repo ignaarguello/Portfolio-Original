@@ -16,7 +16,7 @@
   background-color: transparent;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 360px) {
   #container-general__navbar-mobile {
     /* border: 2px solid red; */
     display: -webkit-box;
@@ -29,6 +29,16 @@
   }
   .containers-navbar {
     height: 9vh;
+    /* border: 2px solid green; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .containers-navbar:nth-child(1) {
     /* border: 2px solid greenyellow; */
@@ -172,7 +182,7 @@
 
 @media screen and (min-width: 414px) {
   .item-list-navbar-mobile {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -826,15 +836,16 @@
     -ms-grid-rows: (1fr)[2];
         grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-    margin-top: 2rem;
+    margin: 2.5rem 0;
   }
   .item-grid-socialMedia__Home-P4 {
-    background-color: #d4d4d4;
+    /*  border: 2px solid red; */
+    background-color: #e0e0e0e8;
     padding: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: .2rem;
+    gap: .1rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -860,19 +871,29 @@
     height: 1.8rem;
   }
   .item-grid-socialMedia__Home-P4 h3 {
+    /*  border: 2px solid red; */
     font-weight: 600;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
+    margin-top: 6px;
+  }
+  .text-instagram {
+    background-image: -webkit-gradient(linear, left top, right top, from(#D64EC1), color-stop(#822D78), color-stop(#833ab4), color-stop(#c13584), color-stop(#D64EC1), to(#833ab4));
+    background-image: linear-gradient(to right, #D64EC1, #822D78, #833ab4, #c13584, #D64EC1, #833ab4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
   }
   /* Estilos para cada contenedor de Social Media */
   .item-grid-socialMedia__Home-P4:nth-child(1) {
-    color: #EA669B;
+    color: #C5439D;
   }
   .item-grid-socialMedia__Home-P4:nth-child(2) {
     color: #2B7DBE;
   }
   .item-grid-socialMedia__Home-P4:nth-child(3) {
-    color: #737373;
+    color: #505050;
   }
   .item-grid-socialMedia__Home-P4:nth-child(4) {
     color: #64C351;
@@ -913,6 +934,12 @@
   .hr:nth-of-type(3) {
     width: 30%;
     margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  #container-general__Home-P4 {
+    min-height: 10vh;
   }
 }
 
@@ -981,6 +1008,12 @@
     width: 50%;
     border-radius: 30px;
     font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  #container-general__Footer {
+    height: 100vh;
   }
 }
 /*# sourceMappingURL=styles.css.map */

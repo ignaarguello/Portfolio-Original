@@ -4,7 +4,7 @@
     #container-general__Home-P4 {
         /*  border: 2px solid blue; */
         background-color: #f1f1f1;
-        
+
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -28,14 +28,15 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 10px;
-        margin-top: 2rem;
+        margin: 2.5rem 0;
     }
 
     .item-grid-socialMedia__Home-P4 {
-        background-color: #d4d4d4;
+        /*  border: 2px solid red; */
+        background-color: #e0e0e0e8;
         padding: 20px;
         display: flex;
-        gap: .2rem;
+        gap: .1rem;
         align-items: center;
         text-decoration: none;
     }
@@ -56,14 +57,24 @@
     }
 
     .item-grid-socialMedia__Home-P4 h3 {
+        /*  border: 2px solid red; */
         font-weight: 600;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 16px;
+        margin-top: 6px;
+    }
+
+    .text-instagram {
+        background-image: linear-gradient(to right, #D64EC1, #822D78, #833ab4, #c13584, #D64EC1, #833ab4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
     }
 
     /* Estilos para cada contenedor de Social Media */
     .item-grid-socialMedia__Home-P4:nth-child(1) {
-        color: #EA669B;
+        color: #C5439D;
     }
 
     .item-grid-socialMedia__Home-P4:nth-child(2) {
@@ -71,7 +82,7 @@
     }
 
     .item-grid-socialMedia__Home-P4:nth-child(3) {
-        color: #737373;
+        color: #505050;
     }
 
     .item-grid-socialMedia__Home-P4:nth-child(4) {
@@ -99,24 +110,28 @@
         font-weight: 700;
     }
 
-    .hr{
+    .hr {
         width: 100%;
         border: 1.5px solid black;
         margin: 10px 0;
     }
 
-    .hr:nth-of-type(1){
+    .hr:nth-of-type(1) {
         width: 70%;
     }
-    .hr:nth-of-type(2){
+
+    .hr:nth-of-type(2) {
         width: 50%;
     }
-    .hr:nth-of-type(3){
+
+    .hr:nth-of-type(3) {
         width: 30%;
         margin-bottom: 2rem;
     }
 }
 
 @media screen and (min-width:414px) {
-    
+    #container-general__Home-P4 {
+        min-height: 10vh;
+    }
 }

@@ -12,7 +12,7 @@ export default function SocialMediaGrid() {
                 <div className='cont-logo-socialMed__Home-P4'>
                     <FiInstagram className='logo-socialMedia__Home-P4' />
                 </div>
-                <h3>Instagram</h3>
+                <h3 className='text-instagram'>Instagram</h3>
             </Link>
             <Link target='_blank' href='https://www.linkedin.com/in/arguelloignacio/' class="item-grid-socialMedia__Home-P4">
                 <div className='cont-logo-socialMed__Home-P4'>

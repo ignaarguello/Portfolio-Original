@@ -8,6 +8,8 @@ import { FiInstagram } from "react-icons/fi";
 import { GrLinkedinOption } from "react-icons/gr";
 import { BsGithub } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
+import UseAnimations from 'react-useanimations';
+import menu3 from 'react-useanimations/lib/menu4'
 
 export default function Navbar() {
     const [visible, setVisible] = useState(false)
@@ -34,7 +36,12 @@ export default function Navbar() {
                     <img src="../images/logo-ia.png" alt="Logo Arguello Ignacio Developer" id='logo-ia' />
                 </Link>
                 <div className="containers-navbar">
-                    <Bars3Icon id='icon-nav-mobile' onClick={getVisibleMenuHM} />
+                    <UseAnimations
+                        animation={menu3}
+                        size={44}
+                        strokeColor='white'
+                        id='icon-nav-mobile'
+                        onClick={getVisibleMenuHM} />
                 </div>
             </div>
             <div id='contenedor-hamburguesa__navbar-mobile' className='hm-hidden'>

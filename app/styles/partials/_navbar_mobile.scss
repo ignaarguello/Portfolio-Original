@@ -1,6 +1,6 @@
 // ? Styles Navbar Mobile
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:360px) {
     #container-general__navbar-mobile {
         /* border: 2px solid red; */
         display: flex;
@@ -12,6 +12,10 @@
 
     .containers-navbar {
         height: 9vh;
+        /* border: 2px solid green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .containers-navbar:nth-child(1) {
@@ -138,7 +142,7 @@
 
 @media screen and (min-width:414px) {
     .item-list-navbar-mobile {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
