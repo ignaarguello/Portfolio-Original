@@ -2,7 +2,7 @@
 
 @media screen and (min-width:360px) {
     #container-general__Footer {
-        height: 14vh;
+        min-height: 14vh;
         background-color: #141414;
         color: white;
         padding: 1.5rem;
@@ -37,10 +37,29 @@
     #logo-copyright__footer {
         width: 1.1rem;
         height: 1.1rem;
+        margin-top: 2px;
     }
 
     .text-footer__footer:nth-child(3){
         color: #9ca3af;
-        font-family: 13px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width:414px) {
+    .text-footer__footer {
+        font-weight: 200;
+        font-size:11px
+    }
+
+    #logo-copyright__footer {
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-top: 2px;
+    }
+
+    .text-footer__footer:nth-child(3){
+        color: #9ca3af;
+        font-size: 10px;
     }
 }
