@@ -1,19 +1,17 @@
 "use client"
 
 import '../../styles/styles.css'
-import { Bars3Icon } from '@heroicons/react/24/outline'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import Link from 'next/link';
 import { FiInstagram } from "react-icons/fi";
 import { GrLinkedinOption } from "react-icons/gr";
 import { BsGithub } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import UseAnimations from 'react-useanimations';
-import menu3 from 'react-useanimations/lib/menu4'
+import menu4 from 'react-useanimations/lib/menu4'
 
 export default function Navbar() {
     const [visible, setVisible] = useState(false)
-
     const getVisibleMenuHM = () => {
         const menu_hamburguesa = document.querySelector('#contenedor-hamburguesa__navbar-mobile')
         if (!visible) {
@@ -28,7 +26,6 @@ export default function Navbar() {
             setVisible(false)
         }
     }
-
     return (
         <div className='flex flex-col sticky top-0 z-10'>
             <div id='container-general__navbar-mobile'>
@@ -36,12 +33,7 @@ export default function Navbar() {
                     <img src="../images/logo-ia.png" alt="Logo Arguello Ignacio Developer" id='logo-ia' />
                 </Link>
                 <div className="containers-navbar">
-                    <UseAnimations
-                        animation={menu3}
-                        size={44}
-                        strokeColor='white'
-                        id='icon-nav-mobile'
-                        onClick={getVisibleMenuHM} />
+                    <UseAnimations animation={menu4} size={44} strokeColor='white' id='icon-nav-mobile' onClick={getVisibleMenuHM} />
                 </div>
             </div>
             <div id='contenedor-hamburguesa__navbar-mobile' className='hm-hidden'>
