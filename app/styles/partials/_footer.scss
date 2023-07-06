@@ -7,14 +7,14 @@
         color: white;
         padding: 1.5rem;
         display: flex;
-        gap: .5rem;
+        gap: .3rem;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
     }
 
     #container-nameAndLogo__Footer {
-        border: 2px solid greenyellow;
+        /* border: 2px solid greenyellow; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -22,7 +22,7 @@
     }
 
     #container-2__footer {
-        border: 2px solid slateblue;
+        /* border: 2px solid slateblue; */
         display: flex;
         flex-direction: column;
         gap: .7rem;
@@ -38,7 +38,7 @@
     }
 
     #logo-copyright__footer {
-        border: 2px solid darkred;
+        /* border: 2px solid darkred; */
         width: 1.1rem;
         height: 1.1rem;
         margin-bottom: .5rem;

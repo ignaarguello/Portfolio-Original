@@ -886,7 +886,7 @@
     font-weight: 600;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
-    margin-top: 8px;
+    margin-top: 10px;
   }
   .text-instagram {
     background-image: -webkit-gradient(linear, left top, right top, from(#D64EC1), color-stop(#9e2a91), color-stop(#9833ac), color-stop(#c13584), color-stop(#D64EC1), to(#833ab4));
@@ -1031,7 +1031,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: .5rem;
+    gap: .3rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1042,7 +1042,7 @@
         flex-wrap: wrap;
   }
   #container-nameAndLogo__Footer {
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1055,7 +1055,7 @@
     gap: .1rem;
   }
   #container-2__footer {
-    border: 2px solid slateblue;
+    /* border: 2px solid slateblue; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1078,7 +1078,7 @@
     font-size: 14px;
   }
   #logo-copyright__footer {
-    border: 2px solid darkred;
+    /* border: 2px solid darkred; */
     width: 1.1rem;
     height: 1.1rem;
     margin-bottom: .5rem;
