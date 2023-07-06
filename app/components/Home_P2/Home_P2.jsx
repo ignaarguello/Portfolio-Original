@@ -11,6 +11,8 @@ import { AiOutlineApi } from "react-icons/ai";
 
 export default function Home_P2() {
 
+  let id_for_skills = 0
+
   const skillsFrontend = [
     { titulo: 'Frontend' },
     { "nombre": 'html', "logo": <FaHtml5 className='logo-skill' />, },
@@ -36,8 +38,8 @@ export default function Home_P2() {
       <div className='container-GeneralSkill__Home-P2'>
         {/* Comienzo de contenedor FRONTEND */}
         {
-          skillsFrontend.map(elem =>
-            <div className='mt-2' key={elem[elem]}>
+          skillsFrontend.map((elem, index) =>
+            <div className='mt-2' key={index}>
               <h2 className='titulo-stack__Home-P2'>{elem?.titulo}</h2>
               <div className='cont-eachSkill__Home-P2'>
                 <h2 className='nombre-skill'>{elem?.nombre?.toUpperCase()}</h2>
