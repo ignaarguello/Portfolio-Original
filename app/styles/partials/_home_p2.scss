@@ -59,10 +59,48 @@
 }
 
 @media screen and (min-width:768px) {
-    #container-frotned__Home-P2 {
-        border: 2px solid blue;
+    #container-general__Home__P2 {
+        /* border: 2px solid green; */
+        min-height: 80vh;
+    }
+
+    .container-skills__Home-P2 {
+        /* border: 2px solid blue; */
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        padding: .3rem;
+    }
+
+    .cont-eachSkill__Home-P2 {
+        /* border: 2px solid red; */
+        justify-content: center;
+        margin: .5rem 1rem;
+        transition: .5s ease;
+        &:hover {
+            color: blue !important;
+            cursor: crosshair;
+        }
+    }
+
+    .container-GeneralSkill__Home-P2 {
+        /* border: 3px solid seagreen; */
+        padding: 1.5rem;
+    }
+
+    .titulo-stack__Home-P2 {
+        margin: 1rem 0;
+    }
+
+    .nombre-skill {
+        font-size: 19px;
+        margin-left: 0rem;
+    }
+
+    .logo-skill {
+        /* border: 2px solid red; */
+        height: 5rem;
+        width: 5rem;
+        padding: .6rem;
     }
 }
