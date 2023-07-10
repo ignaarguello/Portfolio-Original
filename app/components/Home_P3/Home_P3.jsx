@@ -5,6 +5,7 @@ import { proyectos } from '../../data/data_projects'
 import { BsArrowRight } from "react-icons/bs";
 
 export default function Home_P3() {
+    
 
     return (
         <div id="container-general__Home-P3">
