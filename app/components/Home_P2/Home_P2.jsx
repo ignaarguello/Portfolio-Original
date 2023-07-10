@@ -11,8 +11,6 @@ import { AiOutlineApi } from "react-icons/ai";
 
 export default function Home_P2() {
 
-  let id_for_skills = 0
-
   const skillsFrontend = [
     { titulo: 'Frontend' },
     { "nombre": 'html', "logo": <FaHtml5 className='logo-skill' />, },
@@ -30,29 +28,29 @@ export default function Home_P2() {
     { "nombre": 'api rest', "logo": <AiOutlineApi className='logo-skill' />, },
   ]
 
-  const alternativeSkills = skillsFrontend.slice(4, 7)
-
   return (
     <div id="container-general__Home__P2">
       <h2 id='titulo-habilidades__Home-P2'>Habilidades Técnicas:</h2>
       <div className='container-GeneralSkill__Home-P2'>
+        <h2 className='titulo-stack__Home-P2'>{skillsFrontend[0].titulo}</h2>
         {/* Comienzo de contenedor FRONTEND */}
-        {
-          skillsFrontend.map((elem, index) =>
-            <div className='mt-2' key={index}>
-              <h2 className='titulo-stack__Home-P2'>{elem?.titulo}</h2>
-              <div className='cont-eachSkill__Home-P2'>
-                <h2 className='nombre-skill'>{elem?.nombre?.toUpperCase()}</h2>
-                {elem?.logo}
+        <div id='container-frotned__Home-P2'>
+          {
+            skillsFrontend.map((elem, index) =>
+              <div className='mt-2 container-skills__Home-P2' key={index}>
+                <div className='cont-eachSkill__Home-P2'>
+                  <h2 className='nombre-skill'>{elem?.nombre?.toUpperCase()}</h2>
+                  {elem?.logo}
+                </div>
               </div>
-            </div>
-          )
-        }
+            )
+          }
+        </div>
+        <h2 className='titulo-stack__Home-P2 mt-4'>{skillsBackend[0].titulo}</h2>
         {/* Comienzo de contenedor BACKEND */}
         {
-          skillsBackend.map(elem =>
-            <div className='mt-4'>
-              <h2 className='titulo-stack__Home-P2'>{elem?.titulo}</h2>
+          skillsBackend.map((elem, index) =>
+            <div className='mt-2 container-skills__Home-P2' key={index}>
               <div className='cont-eachSkill__Home-P2'>
                 <h2 className='nombre-skill'>{elem?.nombre?.toUpperCase()}</h2>
                 {elem?.logo}

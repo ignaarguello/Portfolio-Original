@@ -535,7 +535,7 @@
   }
   #container-texto__home__P1 {
     margin-top: .3rem;
-    padding: 1.4rem;
+    padding: 1.6rem;
   }
   #texto-home__P1 {
     line-height: 1.8rem;
@@ -659,6 +659,19 @@
     width: 4.2rem;
     padding: .7rem;
     color: #404040;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #container-frotned__Home-P2 {
+    border: 2px solid blue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 

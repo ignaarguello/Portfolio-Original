@@ -57,3 +57,12 @@
         color: #404040;
     }
 }
+
+@media screen and (min-width:768px) {
+    #container-frotned__Home-P2 {
+        border: 2px solid blue;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
