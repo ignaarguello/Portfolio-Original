@@ -72,7 +72,7 @@
 
  @media screen and (min-width:768px) {
      .contenedor-grid-socialMedia__Home-P4 {
-        /*  border: 2px solid blue; */
+         /*  border: 2px solid blue; */
          margin: 2rem 0;
          display: flex;
          flex-direction: row;
@@ -88,13 +88,21 @@
          justify-content: center;
          width: 38%;
          height: 13rem;
+         transition: .5s ease-in-out;
+         &:hover{
+            background-color: #111111d5;
+         }
      }
 
      .item-grid-socialMedia__Home-P4 h3 {
-        /*  border: 2px solid red; */
-        font-weight: 600;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 20px;
-        margin-top: 10px;
-    }
+         /*  border: 2px solid red; */
+         font-weight: 600;
+         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: 22px;
+         margin-top: 10px;
+     }
+
+     .item-grid-socialMedia__Home-P4:nth-child(2) {
+         margin-top: 5px;
+     }
  }

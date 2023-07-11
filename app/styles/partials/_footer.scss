@@ -44,7 +44,7 @@
         margin-bottom: .5rem;
     }
 
-    .text-footer__footer:nth-child(3){
+    .text-footer__footer:nth-child(3) {
         color: #9ca3af;
         font-size: 13px;
     }
@@ -54,9 +54,10 @@
     #container-general__Footer {
         min-height: 18vh;
     }
+
     .text-footer__footer {
         font-weight: 200;
-        font-size:15px
+        font-size: 15px
     }
 
     #logo-copyright__footer {
@@ -65,8 +66,29 @@
         margin-top: 2px;
     }
 
-    .text-footer__footer:nth-child(3){
+    .text-footer__footer:nth-child(3) {
         color: #9ca3af;
         font-size: 13px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    #container-general__Footer {
+        min-height: 18vh;
+    }
+
+    .text-footer__footer {
+        font-size: 20px;
+    }
+
+    #logo-copyright__footer {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-bottom: .5rem;
+    }
+
+    .text-footer__footer:nth-child(3) {
+        font-size: 20px;
+        margin-left: 2rem;
     }
 }

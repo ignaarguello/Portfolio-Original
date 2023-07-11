@@ -196,7 +196,13 @@
     padding: 1.4rem;
   }
   .item-list-navbar-mobile {
-    font-size: 20px;
+    font-size: 22px;
+    padding: 2.5rem;
+  }
+  #icon-nav-mobile {
+    /* border: 2px solid blueviolet; */
+    width: 3.5rem !important;
+    height: 3.5rem !important;
   }
 }
 
@@ -926,7 +932,8 @@
     background-color: rgba(0, 0, 0, 0);
   }
   #titulo-proyectos__Home-P3 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
+    margin-top: 3rem;
   }
   .nombre_card_project__Home-P3 {
     font-size: 1.4rem;
@@ -1282,13 +1289,21 @@
             justify-content: center;
     width: 38%;
     height: 13rem;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+  }
+  .item-grid-socialMedia__Home-P4:hover {
+    background-color: #111111d5;
   }
   .item-grid-socialMedia__Home-P4 h3 {
     /*  border: 2px solid red; */
     font-weight: 600;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 10px;
+  }
+  .item-grid-socialMedia__Home-P4:nth-child(2) {
+    margin-top: 5px;
   }
 }
 
@@ -1375,6 +1390,24 @@
   .text-footer__footer:nth-child(3) {
     color: #9ca3af;
     font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #container-general__Footer {
+    min-height: 18vh;
+  }
+  .text-footer__footer {
+    font-size: 20px;
+  }
+  #logo-copyright__footer {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-bottom: .5rem;
+  }
+  .text-footer__footer:nth-child(3) {
+    font-size: 20px;
+    margin-left: 2rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
