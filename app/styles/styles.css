@@ -812,6 +812,7 @@
     color: white;
   }
   #container-ver-mas-proyectos__Home-P3 {
+    /* border: 2px solid red; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -826,12 +827,13 @@
     background: linear-gradient(to top left, #0c0c0c, black);
     color: white;
     margin-top: 1rem;
+    padding: 1rem;
     text-decoration: none;
   }
   #titulo-ver-mas__Home-P3 {
-    font-weight: 300;
-    font-size: 16px;
-    padding: 1.5rem 0;
+    /* border: 2px solid saddlebrown; */
+    font-weight: 400;
+    font-size: 1rem;
     text-decoration: none;
   }
   @-webkit-keyframes slide {
@@ -943,6 +945,12 @@
     color: black;
     font-weight: bold;
     width: 57%;
+  }
+  #container-ver-mas-proyectos__Home-P3 {
+    padding: 1.7rem;
+  }
+  #titulo-ver-mas__Home-P3 {
+    font-size: 1.3rem;
   }
 }
 

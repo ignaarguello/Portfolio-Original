@@ -11,7 +11,7 @@ export default function Home_P3() {
             <div id="contenedor-cards-projects__Home-P3">
                 {
                     proyectos.map(elem =>
-                        <div className="card-project__Home-P3" style={{
+                        <div key={elem.id} className="card-project__Home-P3" style={{
                             backgroundImage: `url(${elem.imagen})`,
                             backgroundSize: "cover",
                             backgroundPosition: "center",
