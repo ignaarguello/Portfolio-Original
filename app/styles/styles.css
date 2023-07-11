@@ -981,88 +981,6 @@
             animation: textColor 8s infinite;
     margin: 1.7rem .4rem 1rem 1rem;
   }
-  /* Estilos del componente 'Social Media Grid' */
-  .contenedor-grid-socialMedia__Home-P4 {
-    /* border: 2px solid blue; */
-    margin: 1.5rem 0;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: .4rem;
-  }
-  .item-grid-socialMedia__Home-P4 {
-    /*  border: 2px solid red; */
-    background-color: #111111e0;
-    padding: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: .1rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-decoration: none;
-    border-radius: 15px;
-    width: 95%;
-  }
-  .cont-logo-socialMed__Home-P4 {
-    /* border: 2px solid green; */
-    padding: 9px;
-    border-radius: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .logo-socialMedia__Home-P4 {
-    /* border: 2px solid red; */
-    width: 1.8rem;
-    height: 1.8rem;
-  }
-  .item-grid-socialMedia__Home-P4 h3 {
-    /*  border: 2px solid red; */
-    font-weight: 600;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    margin-top: 10px;
-  }
-  .text-instagram {
-    background-image: -webkit-gradient(linear, left top, right top, from(#D64EC1), color-stop(#9e2a91), color-stop(#9833ac), color-stop(#c13584), color-stop(#D64EC1), to(#833ab4));
-    background-image: linear-gradient(to right, #D64EC1, #9e2a91, #9833ac, #c13584, #D64EC1, #833ab4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-  }
-  /* Estilos para cada contenedor de Social Media */
-  .item-grid-socialMedia__Home-P4:nth-child(1) {
-    color: #C5439D;
-  }
-  .item-grid-socialMedia__Home-P4:nth-child(2) {
-    color: #2B7DBE;
-  }
-  .item-grid-socialMedia__Home-P4:nth-child(3) {
-    color: #cacaca;
-  }
-  .item-grid-socialMedia__Home-P4:nth-child(4) {
-    color: #64C351;
-  }
   #container-titleAndLogo__Home-P4 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1105,6 +1023,32 @@
 @media screen and (min-width: 414px) {
   #container-general__Home-P4 {
     min-height: 10vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #titulo-contacto__Home-P4 {
+    /* border: 2px solid red; */
+    color: #334155;
+    font-size: 3.5rem;
+    margin-top: 1.9rem;
+  }
+  .hr {
+    border: 2px solid black;
+    margin: 15px 0;
+  }
+  .hr:nth-of-type(1) {
+    width: 55%;
+  }
+  .hr:nth-of-type(2) {
+    width: 35%;
+  }
+  .hr:nth-of-type(3) {
+    width: 15%;
+    margin-bottom: 2rem;
+  }
+  #texto-contacto__Home-P4 {
+    font-size: 22px;
   }
 }
 
@@ -1173,6 +1117,178 @@
     width: 50%;
     border-radius: 30px;
     font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #form-contact__Home-P4 {
+    /* border: 2px solid red; */
+    margin: 0rem 0;
+    width: 80%;
+    gap: 1.7rem;
+    padding: 2rem;
+  }
+  #form-contact__Home-P4 textarea {
+    height: 17rem;
+  }
+  #form-contact__Home-P4 input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    color: #cfcdcd;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  #form-contact__Home-P4 input:-ms-input-placeholder,
+  textarea:-ms-input-placeholder {
+    color: #cfcdcd;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  #form-contact__Home-P4 input::-ms-input-placeholder,
+  textarea::-ms-input-placeholder {
+    color: #cfcdcd;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  #form-contact__Home-P4 input::placeholder,
+  textarea::placeholder {
+    color: #cfcdcd;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  #form-contact__Home-P4 button {
+    padding: 12px;
+    width: 50%;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
+
+/* Estilos del componente 'Social Media Grid' */
+.contenedor-grid-socialMedia__Home-P4 {
+  /* border: 2px solid blue; */
+  margin: 1.5rem 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .4rem;
+}
+
+.item-grid-socialMedia__Home-P4 {
+  /*  border: 2px solid red; */
+  background-color: #111111e0;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: .1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  border-radius: 15px;
+  width: 95%;
+}
+
+.cont-logo-socialMed__Home-P4 {
+  /* border: 2px solid green; */
+  padding: 9px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo-socialMedia__Home-P4 {
+  /* border: 2px solid red; */
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.item-grid-socialMedia__Home-P4 h3 {
+  /*  border: 2px solid red; */
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.text-instagram {
+  background-image: -webkit-gradient(linear, left top, right top, from(#D64EC1), color-stop(#9e2a91), color-stop(#9833ac), color-stop(#c13584), color-stop(#D64EC1), to(#833ab4));
+  background-image: linear-gradient(to right, #D64EC1, #9e2a91, #9833ac, #c13584, #D64EC1, #833ab4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+/* Estilos para cada contenedor de Social Media */
+.item-grid-socialMedia__Home-P4:nth-child(1) {
+  color: #C5439D;
+}
+
+.item-grid-socialMedia__Home-P4:nth-child(2) {
+  color: #2B7DBE;
+}
+
+.item-grid-socialMedia__Home-P4:nth-child(3) {
+  color: #cacaca;
+}
+
+.item-grid-socialMedia__Home-P4:nth-child(4) {
+  color: #64C351;
+}
+
+@media screen and (min-width: 768px) {
+  .contenedor-grid-socialMedia__Home-P4 {
+    /*  border: 2px solid blue; */
+    margin: 2rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: .6rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .item-grid-socialMedia__Home-P4 {
+    /* border: 2px solid red; */
+    background-color: #111111ec;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 38%;
+    height: 13rem;
+  }
+  .item-grid-socialMedia__Home-P4 h3 {
+    /*  border: 2px solid red; */
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
   }
 }
 
