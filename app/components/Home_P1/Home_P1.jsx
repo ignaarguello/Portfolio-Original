@@ -1,5 +1,6 @@
 import 'animate.css';
 
+
 export default function Home_P1() {
   const var_text = `< Desarrollador Web />`
 
