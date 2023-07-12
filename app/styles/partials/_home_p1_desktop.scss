@@ -1,0 +1,59 @@
+// ? Home P1 - DESKTOP
+
+//Con esta media query, ocultamos este componente en resoluciones mobiles
+@media screen and (min-width:320px) and (max-width:1280px) {
+    #container-general__HomeP1-DESKTOP {
+        display: none;
+    }
+}
+
+//* Media Querys para Desktop ✌🏼
+
+@media screen and (min-width:1280px) {
+    #container-general__HomeP1-DESKTOP {
+        border: 2px solid green;
+        height: 90vh;
+        display: flex;
+    }
+
+    .contenedor-interior__HomeP1-DESKTOP {
+        width: 50%;
+    }
+
+
+    //? Clases Contenedor 1
+    .contenedor-interior__HomeP1-DESKTOP:nth-of-type(1) {
+        border: 2px solid red;
+        display: flex;
+    }
+
+    #container-image-HomeP1-DESKTOP {
+        height: 100%;
+        width: 100%;
+        background-color: black;
+    }
+
+    #Image-Main__HomeP1-DESKTOP{
+        border: 2px solid maroon;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    //? Clases Contenedor 2
+    .contenedor-interior__HomeP1-DESKTOP:nth-of-type(2) {
+        border: 2px solid blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #title-IgnacioARG__HomeP1-DESKTOP {
+        font-size: 3.5rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+    }
+
+}

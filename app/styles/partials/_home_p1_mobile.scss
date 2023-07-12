@@ -246,3 +246,10 @@
         text-wrap: balance;
     }
 }
+
+@media screen and (min-width:1280px) {
+    #container-general__Home_P1 {
+        border: 2px solid red;
+        display: none;
+    }
+}

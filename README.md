@@ -1,3 +1,4 @@
 // Proyecto destinado a Portfolio Personal.
 
-Aun en desarrollo.....
+// Comando para limpiar la cache
+rm -rf .next
