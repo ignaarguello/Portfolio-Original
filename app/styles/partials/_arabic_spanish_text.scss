@@ -1,0 +1,23 @@
+//?  Arabic Spanish Text Styles
+
+@media screen and (min-width:1280px) {
+    .container-languaje-ArabicSpanish__HomeP1 {
+        border: 2px solid red;
+        width: 25rem;
+        position: absolute;
+        height: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .spanish-text{
+        text-align: center;
+    }
+
+    .arabic-text{
+        text-align: center;
+        font-size: 1.4rem;
+        margin: 0 2.5rem;
+    }
+}

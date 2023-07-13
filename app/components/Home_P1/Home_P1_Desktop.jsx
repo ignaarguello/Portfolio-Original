@@ -1,6 +1,7 @@
 'use client'
 import '../../styles/styles.css'
 import Image from 'next/image'
+import ArabicSpanishText from '../ArabicSpanishText/ArabicSpanishText'
 
 
 export default function Home_P1_Desktop() {
@@ -21,11 +22,10 @@ export default function Home_P1_Desktop() {
       <div className="contenedor-interior__HomeP1-DESKTOP">
         <div id='container-image-HomeP1-DESKTOP' onMouseEnter={TranslateElement} onMouseLeave={TranslateElementToOriginal}>
           <Image src="/images/foto-igna.jpg" alt="X" id='Image-Main__HomeP1-DESKTOP' width={50} height={50} sizes='100%' />
-          <ul id='lista__HomeP1-DESKTOP'>
-            <li className="item-li__HomeP1-DESKTOP">De Argentina 🇦🇷</li>
-            <li className="item-li__HomeP1-DESKTOP">24 años.</li>
-            <li className="item-li__HomeP1-DESKTOP">11-2868-2405 📱</li>
-          </ul>
+          {/* <p id='text__HomeP1-DESKTOP'>
+            ¡Hola! Mi nombre es Ignacio Argüello, soy Desarrollador Web especializado en crear experiencias digitales cautivadoras. Con una sólida base en diseño y desarrollo, mi objetivo es fusionar la estética y la funcionalidad para ofrecer soluciones web únicas y atractivas. Siempre busco crear experiencias digitales personalizadas y centradas en el usuario. Soy apasionado por la creación de sitios web intuitivos, accesibles y visualmente impactantes. ¡Bienvenido a mi portfolio!
+          </p> */}
+          <ArabicSpanishText />
         </div>
       </div>
       <div className="contenedor-interior__HomeP1-DESKTOP">
