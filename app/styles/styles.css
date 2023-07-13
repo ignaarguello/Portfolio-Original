@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -1461,6 +1462,8 @@
         -ms-flex-align: center;
             align-items: center;
     cursor: pointer;
+    margin-left: 10rem;
+    margin-top: 4.5rem;
   }
   #Image-Main__HomeP1-DESKTOP {
     /* border: 2px solid maroon; */
@@ -1474,8 +1477,8 @@
     z-index: 2;
   }
   .TranslateElement {
-    -webkit-transition: .5s ease;
-    transition: .5s ease;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
     -webkit-transform: translate(300px, 0px);
             transform: translate(300px, 0px);
     width: 32% !important;
@@ -1509,10 +1512,10 @@
 
 @media screen and (min-width: 1280px) {
   .container-languaje-ArabicSpanish__HomeP1 {
-    border: 2px solid red;
-    width: 25rem;
+    /* border: 2px solid red; */
+    width: 21rem;
+    min-height: 20rem;
     position: absolute;
-    height: 25rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1525,11 +1528,37 @@
   }
   .spanish-text {
     text-align: center;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 2rem;
+    line-height: 2rem;
   }
   .arabic-text {
     text-align: center;
     font-size: 1.4rem;
     margin: 0 2.5rem;
+  }
+  /*  */
+  .fade-in {
+    opacity: 0;
+    -webkit-animation: fade-in-animation 0.5s ease-in forwards;
+            animation: fade-in-animation 0.5s ease-in forwards;
+  }
+  @-webkit-keyframes fade-in-animation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-animation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
 /*# sourceMappingURL=styles.css.map */

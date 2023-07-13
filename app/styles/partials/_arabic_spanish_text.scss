@@ -1,23 +1,46 @@
 //?  Arabic Spanish Text Styles
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
 
 @media screen and (min-width:1280px) {
     .container-languaje-ArabicSpanish__HomeP1 {
-        border: 2px solid red;
-        width: 25rem;
+        /* border: 2px solid red; */
+        width: 21rem;
+        min-height: 20rem;
         position: absolute;
-        height: 25rem;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .spanish-text{
+    .spanish-text {
         text-align: center;
+        font-size: 1rem;
+        font-family: 'Raleway', sans-serif;
+        margin: 0 2rem;
+        line-height: 2rem;
     }
 
-    .arabic-text{
+    .arabic-text {
         text-align: center;
         font-size: 1.4rem;
         margin: 0 2.5rem;
     }
+
+    /*  */
+
+    .fade-in {
+        opacity: 0;
+        animation: fade-in-animation 0.5s ease-in forwards;
+    }
+
+    @keyframes fade-in-animation {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
 }
