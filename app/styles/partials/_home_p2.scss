@@ -2,7 +2,7 @@
 
 @media screen and (min-width:360px) {
     #container-general__Home__P2 {
-        /* border: 2px solid green; */
+        border: 2px solid green;
         background: linear-gradient(to top left, rgb(12, 12, 12), rgb(0, 0, 0));
         z-index: 1;
         border-top: 5px solid black;
@@ -77,6 +77,7 @@
         justify-content: center;
         margin: .5rem 1rem;
         transition: .5s ease;
+
         &:hover {
             color: blue !important;
             cursor: crosshair;
@@ -102,5 +103,11 @@
         height: 5rem;
         width: 5rem;
         padding: .6rem;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    #container-general__Home__P2 {
+        display: none;
     }
 }

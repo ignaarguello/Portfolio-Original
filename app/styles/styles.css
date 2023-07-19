@@ -617,7 +617,7 @@
 
 @media screen and (min-width: 360px) {
   #container-general__Home__P2 {
-    /* border: 2px solid green; */
+    border: 2px solid green;
     background: -webkit-gradient(linear, right bottom, left top, from(#0c0c0c), to(black));
     background: linear-gradient(to top left, #0c0c0c, black);
     z-index: 1;
@@ -722,6 +722,12 @@
     height: 5rem;
     width: 5rem;
     padding: .6rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #container-general__Home__P2 {
+    display: none;
   }
 }
 
@@ -1428,61 +1434,23 @@
 
 @media screen and (min-width: 1280px) {
   #container-general__HomeP1-DESKTOP {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 90vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .contenedor-interior__HomeP1-DESKTOP-1 {
-    /* border: 2px solid sandybrown; */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 60%;
-  }
-  #container-image-HomeP1-DESKTOP {
-    /* border: 2px solid gray; */
-    height: 90%;
-    width: 50%;
-    margin: 2rem;
-    z-index: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    cursor: pointer;
-    margin-left: 6rem;
-  }
-  .contenedor-interior__HomeP1-DESKTOP-2 {
-    /* border: 2px solid red; */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 40%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 1rem;
   }
   #title-IgnacioARG__HomeP1-DESKTOP {
     font-size: 3.5rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
+    z-index: 3;
   }
 }
 
@@ -1547,16 +1515,12 @@
 @media screen and (min-width: 1280px) {
   #container-gridHomeP1_Desktop {
     /* border: 2px solid forestgreen; */
-    -ms-flex-item-align: center;
-        align-self: center;
-    justify-self: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 30%;
-    height: 80%;
-    position: absolute;
-    gap: 5px;
+    height: 90%;
+    gap: 10px;
     display: flex;
     z-index: 2;
   }
@@ -1565,14 +1529,14 @@
     width: 50%;
     -o-object-fit: cover;
        object-fit: cover;
-    -o-object-position: -70px;
-       object-position: -70px;
+    -o-object-position: -75px;
+       object-position: -75px;
   }
   .image-left__HomeP1-DESKTOP,
   .image-right__HomeP1-DESKTOP {
     border-radius: 10px;
-    -webkit-filter: grayscale(60%);
-            filter: grayscale(60%);
+    -webkit-filter: grayscale(40%);
+            filter: grayscale(40%);
   }
   .container-right-flex__HomeP1-DESKTOP:nth-child(2) {
     /*  border: 2px solid greenyellow; */
@@ -1584,7 +1548,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 5px;
+    gap: 8px;
   }
   .image-right__HomeP1-DESKTOP {
     /* border: 2px solid red; */
@@ -1596,8 +1560,38 @@
        object-fit: cover;
   }
   .image-right__HomeP1-DESKTOP:nth-child(2) {
-    -o-object-position: -30px;
-       object-position: -30px;
+    -o-object-position: -18px;
+       object-position: -18px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1280px) {
+  #container-general__HomeP2-D {
+    background-color: #141414;
+    height: 90vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 2;
+  }
+  .div-interiores__HomeP2-D:nth-child(1) {
+    /* background-color: #262626; */
+    width: 25%;
+    z-index: 100;
+    height: 80%;
+    width: 30%;
+    /*   border-top: 2px solid grey; */
+    border-right: 2px solid grey;
+    margin-left: 2rem;
+  }
+  .div-interiores__HomeP2-D:nth-child(2) {
+    /* border: 2px solid brown; */
+    width: 65%;
+    height: 80%;
+    z-index: 100;
   }
 }
 /*# sourceMappingURL=styles.css.map */

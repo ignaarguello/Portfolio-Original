@@ -1,0 +1,29 @@
+//Estilos Home P2 - Desktop
+
+@media screen and (min-width:320px) and (max-width:1280px) {
+    #container-general__HomeP2-D {
+        background-color: #141414;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        z-index: 2;
+    }
+
+    .div-interiores__HomeP2-D:nth-child(1) {
+        /* background-color: #262626; */
+        width: 25%;
+        z-index: 100;
+        height: 80%;
+        width: 30%;
+      /*   border-top: 2px solid grey; */
+        border-right: 2px solid grey;
+        margin-left: 2rem;
+    }
+
+    .div-interiores__HomeP2-D:nth-child(2) {
+        /* border: 2px solid brown; */
+        width: 65%;
+        height: 80%;
+        z-index: 100;
+    }
+}
