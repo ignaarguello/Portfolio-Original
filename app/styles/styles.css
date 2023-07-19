@@ -1428,14 +1428,17 @@
 
 @media screen and (min-width: 1280px) {
   #container-general__HomeP1-DESKTOP {
-    /* border: 2px solid green; */
+    border: 2px solid green;
     height: 90vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .contenedor-interior__HomeP1-DESKTOP:nth-of-type(1) {
-    /* border: 2px solid red; */
+  .contenedor-interior__HomeP1-DESKTOP-1 {
+    /* border: 2px solid sandybrown; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1459,51 +1462,8 @@
     cursor: pointer;
     margin-left: 6rem;
   }
-  #Image-Main__HomeP1-DESKTOP {
-    /* border: 2px solid maroon; */
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -webkit-transition: .6s ease;
-    transition: .6s ease;
-    pointer-events: none;
-    z-index: 2;
-  }
-  #Image-Main-Second__HomeP1-DESKTOP {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    pointer-events: none;
-    z-index: 2;
-    display: none;
-  }
-  /* (Animacion de la primer imagen) */
-  .TranslateElement {
-    -webkit-transition: 2s ease;
-    transition: 2s ease;
-    -webkit-transform: translate(350px, 0px);
-            transform: translate(350px, 0px);
-    width: 35% !important;
-    -o-object-position: -105px;
-       object-position: -105px;
-  }
-  /* (Animacion de la segunda imagen) */
-  .TranslateAndShowElement-2 {
-    -webkit-transition: 2s ease;
-    transition: 2s ease;
-    display: block !important;
-    -webkit-transform: translate(370px, 0px);
-            transform: translate(370px, 0px);
-    width: 35% !important;
-    -o-object-position: -194px;
-       object-position: -194px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .contenedor-interior__HomeP1-DESKTOP:nth-of-type(2) {
-    /* border: 2px solid blue; */
+  .contenedor-interior__HomeP1-DESKTOP-2 {
+    /* border: 2px solid red; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1575,6 +1535,69 @@
     to {
       opacity: 1;
     }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1280px) {
+  #container-gridHomeP1_Desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #container-gridHomeP1_Desktop {
+    /* border: 2px solid forestgreen; */
+    -ms-flex-item-align: center;
+        align-self: center;
+    justify-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    gap: 5px;
+    display: flex;
+    z-index: 2;
+  }
+  .image-left__HomeP1-DESKTOP {
+    /* border: 2px solid blue; */
+    width: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: -70px;
+       object-position: -70px;
+  }
+  .image-left__HomeP1-DESKTOP,
+  .image-right__HomeP1-DESKTOP {
+    border-radius: 10px;
+    -webkit-filter: grayscale(60%);
+            filter: grayscale(60%);
+  }
+  .container-right-flex__HomeP1-DESKTOP:nth-child(2) {
+    /*  border: 2px solid greenyellow; */
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 5px;
+  }
+  .image-right__HomeP1-DESKTOP {
+    /* border: 2px solid red; */
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .image-right__HomeP1-DESKTOP:nth-child(2) {
+    -o-object-position: -30px;
+       object-position: -30px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

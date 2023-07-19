@@ -1,0 +1,54 @@
+//Grid de Home P1 - Desktop
+
+@media screen and (min-width:320px) and (max-width:1280px) {
+    #container-gridHomeP1_Desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    #container-gridHomeP1_Desktop {
+        /* border: 2px solid forestgreen; */
+        align-self: center;
+        justify-self: center;
+        display: flex;
+        width: 30%;
+        height: 80%;
+        position: absolute;
+        gap: 5px;
+        display: flex;
+        z-index: 2;
+    }
+
+    .image-left__HomeP1-DESKTOP {
+        /* border: 2px solid blue; */
+        width: 50%;
+        object-fit: cover;
+        object-position: -70px;
+    }
+
+    .image-left__HomeP1-DESKTOP,
+    .image-right__HomeP1-DESKTOP{
+        border-radius: 10px;
+        filter: grayscale(60%);
+    }
+
+    .container-right-flex__HomeP1-DESKTOP:nth-child(2) {
+       /*  border: 2px solid greenyellow; */
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .image-right__HomeP1-DESKTOP{
+        /* border: 2px solid red; */
+        flex-grow: 1;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .image-right__HomeP1-DESKTOP:nth-child(2){
+        object-position: -30px;
+    }
+}
