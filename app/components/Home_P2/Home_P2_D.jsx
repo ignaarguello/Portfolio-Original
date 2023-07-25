@@ -9,29 +9,19 @@ export default function Home_P2_Desktop() {
 
     //Funcion que cambia el estado de las skills
     const showSkillsFrontend = () => {
-        if (stateSkill === undefined) {
-            console.log('Empty')
-        }
-        if (stateSkill === true) {
-            setStateSkill(false)
-        }
+        (stateSkill === undefined) ? console.log('Empty') : ((stateSkill === true) ? setStateSkill(false) : console.log('Empty'))
     }
 
     const showSkillsBackend = () => {
-        if (stateSkill === undefined) {
-            setStateSkill(true)
-        }
-        else if (stateSkill === false) {
-            setStateSkill(true)
-        }
+        (stateSkill === undefined) ? setStateSkill(true) : ((stateSkill === false) ? setStateSkill(true) : console.log('Empty'))
     }
 
     return (
         <div id="container-general__HomeP2-D">
             <div id='subContenedorGeneral_HomeP2-D'>
                 <div className="div-interiores__HomeP2-D">
-                    <h2 className="title-skill__HomeP2-D" onClick={showSkillsFrontend}>•Frontend</h2>
-                    <h2 className="title-skill__HomeP2-D" onClick={showSkillsBackend}>•Backend</h2>
+                    <h2 className="title-skill__HomeP2-D" onClick={showSkillsFrontend}>Frontend</h2>
+                    <h2 className="title-skill__HomeP2-D" onClick={showSkillsBackend}>Backend</h2>
                 </div>
                 <div className="div-interiores__HomeP2-D">
                     <h2 className='title-eachSkill__HomeP2-D'>Habilidades</h2>

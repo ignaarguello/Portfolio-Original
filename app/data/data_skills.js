@@ -28,7 +28,7 @@ const skillsBackend = [
     { "nombre": 'express', "logo": <SiExpress className='logo-skill' style={{ '--color-hex': '#EBEBEB' }} />, },
     { "nombre": 'mongo DB', "logo": <SiMongodb className='logo-skill' style={{ '--color-hex': '#356D50' }} />, },
     { "nombre": 'python', "logo": <DiPython className='logo-skill' style={{ '--color-hex': '#366D9B' }} />, },
-    { "nombre": 'mysql', "logo": <SiMysql className='logo-skill' style={{ '--color-hex': '#266590' }} />, },
+    { "nombre": 'sql', "logo": <SiMysql className='logo-skill' style={{ '--color-hex': '#266590' }} />, },
     { "nombre": 'api rest', "logo": <AiOutlineApi className='logo-skill' style={{ '--color-hex': '#FFFFFF' }} />, },
     { "nombre": 'flask', "logo": <SiFlask className='logo-skill' style={{ '--color-hex': '#D79D2E' }} />, },
 ]
