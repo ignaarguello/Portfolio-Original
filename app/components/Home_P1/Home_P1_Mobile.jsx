@@ -6,7 +6,7 @@ export default function Home_P1_Mobile() {
 
   return (
     <div id="container-general__Home_P1">
-      <img id="image-home_P1" src="../images/Argüello Ignacio.jpg" alt="" className='animate__animated animate__fadeIn animate__slow' />
+      <img id="image-home_P1" src="../images/foto-igna2.jpg" alt="" className='animate__animated animate__fadeIn animate__slow' />
       <div id="container-info__Home-P1">
         <h2 className="item-text__Home-P1 animate__animated animate__fadeIn animate__delay-1s animate__slow">Argüello Ignacio</h2>
         <h3 className="item-text__Home-P1 animate__animated animate__fadeIn animate__delay-1s animate__slow">{var_text}</h3>
