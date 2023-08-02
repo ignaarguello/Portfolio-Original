@@ -6,13 +6,13 @@ import { useState } from 'react';
 
 export default function Home_P2_Desktop() {
     const [stateSkill, setStateSkill] = useState(undefined)
-
+   
     //Funcion que cambia el estado de las skills
-    const showSkillsFrontend = () => {
+    const showSkillsFrontend = (event) => {
         (stateSkill === undefined) ? console.log('Empty') : ((stateSkill === true) ? setStateSkill(false) : console.log('Empty'))
     }
 
-    const showSkillsBackend = () => {
+    const showSkillsBackend = (event) => {
         (stateSkill === undefined) ? setStateSkill(true) : ((stateSkill === false) ? setStateSkill(true) : console.log('Empty'))
     }
 

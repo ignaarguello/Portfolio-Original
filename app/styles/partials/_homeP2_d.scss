@@ -61,8 +61,11 @@
 
     .title-skill__HomeP2-D:hover {
         color: #d4d4d4;
-        border-left: 1.5px groove #9333ea;
         cursor: pointer;
+    }
+
+    .border-left-class{
+        border-left: 1.5px groove #9333ea;
     }
 
     .title-eachSkill__HomeP2-D {
@@ -72,16 +75,16 @@
         position: relative;
     }
 
-    /* .title-eachSkill__HomeP2-D::after {
+    .title-eachSkill__HomeP2-D::after {
         content: '';
         position: absolute;
         left: 0;
         right: 0;
-        bottom: -4.3px;
-        width: 40%;
+        bottom: -5px;
+        width: 38%;
         border-bottom: 3px groove #9333ea;
         margin: 0 auto;
-    } */
+    }
 
     //? Contenedor donde se renderizan las skills
     #container-second-eachSkill__HomeP2-D {
@@ -108,7 +111,7 @@
     .elem-nombre__HomeP2-D {
         color: white;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 18px;
     }
 
