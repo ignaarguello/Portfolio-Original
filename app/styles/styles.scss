@@ -1,14 +1,30 @@
 @import './partials/page';
+
+//Navbar Mobile - Desktop
 @import './partials/navbar_mobile';
 @import './partials/navbar_desktop';
+
+//Home P1 Mobile - Desktop
 @import './partials/home_p1_mobile';
-@import './partials/home_p2';
-@import './partials/home_p3';
+@import './partials/home_p1_desktop';
+
+
+//Home P2 Mobile - Desktop
+@import './partials/home_p2_mobile';
+@import'./partials/home_p2_desktop';
+
+//Home P3 Mobile - Desktop
+@import './partials/home_p3_mobile';
+@import'./partials/home_p3_desktop';
+
+
+//Home P4 Mobile - Desktop
 @import './partials/home_p4';
+
+
+//Componentes
 @import './partials/formContact';
 @import './partials/socialMediaGrid';
 @import './partials/footer';
-@import './partials/home_p1_desktop';
 @import './partials/arabic_spanish_text';
 @import'./partials/grid_homeP1_D';
-@import'./partials/homeP2_d';

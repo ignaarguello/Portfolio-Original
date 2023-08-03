@@ -153,7 +153,7 @@
         /* border: 2px solid green; */
         flex-direction: column;
         justify-content: center;
-        position: sticky;
+        position: absolute;
         right: 44rem;
         gap: 1.5rem;
     }
@@ -204,5 +204,17 @@
 
     #titulo-ver-mas__Home-P3 {
         font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width:820px) {
+    .container-refs__Home-P3 {
+        right: 47rem;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    #container-general__Home-P3{
+        display: none;
     }
 }

@@ -1,0 +1,14 @@
+@media screen and (min-width:320px) and (max-width:1280px) {
+    #contenedor-general__HomeP3-D {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    #contenedor-general__HomeP3-D {
+        display: block;
+        border: 2px solid greenyellow;
+        height: 100vh;
+        z-index: 3;
+    }
+}
