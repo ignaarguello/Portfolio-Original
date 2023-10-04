@@ -7,8 +7,8 @@ import 'animate.css';
 export default function Home_P1_Desktop() {
   return (
     <div id="container-general__HomeP1-DESKTOP">
-      <Grid_HomeP1_D />
       <h2 id='title-IgnacioARG__HomeP1-DESKTOP'>Argüello Ignacio</h2>
+      <Grid_HomeP1_D />
     </div>
   )
 }

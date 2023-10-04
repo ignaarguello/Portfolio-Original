@@ -630,9 +630,10 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    padding: 1rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0.1rem;
   }
   #title-IgnacioARG__HomeP1-DESKTOP {
     font-size: 3.5rem;
@@ -1691,8 +1692,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 30%;
-    height: 90%;
+    width: 40%;
+    height: 100%;
     gap: 10px;
     display: flex;
     z-index: 2;
@@ -1707,9 +1708,8 @@
   }
   .image-left__HomeP1-DESKTOP,
   .image-right__HomeP1-DESKTOP {
-    border-radius: 10px;
-    -webkit-filter: grayscale(40%);
-            filter: grayscale(40%);
+    -webkit-filter: grayscale(10%);
+            filter: grayscale(10%);
   }
   .container-right-flex__HomeP1-DESKTOP:nth-child(2) {
     /*  border: 2px solid greenyellow; */
@@ -1731,10 +1731,7 @@
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
-  }
-  .image-right__HomeP1-DESKTOP:nth-child(2) {
-    -o-object-position: -18px;
-       object-position: -18px;
+    height: 50%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
