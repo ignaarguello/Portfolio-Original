@@ -6,6 +6,8 @@ import "animate.css";
 import Grid_HomeP1_D from "../Grid_HomeP1_D/Grid_HomeP1_D";
 import IndexPage from "../IndexPage/IndexPage";
 
+
+
 export default function Home_P1_Desktop() {
   return (
     <div id="container-general__HomeP1-DESKTOP">

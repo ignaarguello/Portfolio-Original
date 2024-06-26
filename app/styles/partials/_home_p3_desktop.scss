@@ -7,7 +7,25 @@
 @media screen and (min-width:1280px) {
     #contenedor-general__HomeP3-D {
         display: block;
-        border: 2px solid greenyellow;
+      /*   border: 2px solid greenyellow; */
         height: 100vh;
+        padding: 2rem;
+        z-index: 10;
+    }
+
+    #contenedorProyectos_HomeP3_DESK{
+        /* border: 2px solid skyblue; */
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+    
+    .CardProyecto_HomeP3{
+        /*  border: 2px solid red; */
+        width: 29rem;
+        height: 25rem;
+        cursor: pointer;
     }
 }

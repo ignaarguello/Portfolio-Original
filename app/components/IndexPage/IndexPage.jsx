@@ -10,7 +10,7 @@ export default function IndexPage(props) {
       color: color || "gray", // Color por defecto negro
       textAlign: props.align || "left", // Alineación por defecto a la izquierda
       fontSize: '3rem',
-      fontWeight: 6,
+      fontWeight: '300',
     },
   };
 
