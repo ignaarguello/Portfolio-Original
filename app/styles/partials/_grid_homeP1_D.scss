@@ -15,13 +15,14 @@
         gap: 10px;
         display: flex;
         z-index: 2;
+        margin-left: 5rem;
     }
 
     .image-left__HomeP1-DESKTOP {
         /* border: 2px solid blue; */
-        width: 50%;
+        width: 45%;
         object-fit: cover;
-        object-position: -75px;
+        object-position: -55px;
     }
 
     .image-left__HomeP1-DESKTOP,
@@ -30,11 +31,12 @@
     }
 
     .container-right-flex__HomeP1-DESKTOP:nth-child(2) {
-       /*  border: 2px solid greenyellow; */
+        /* border: 2px solid slateblue; */
         width: 50%;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        padding: .5rem;
     }
 
     .image-right__HomeP1-DESKTOP{
@@ -43,5 +45,6 @@
         width: 100%;
         object-fit: cover;
         height: 50%;
+        padding: .5rem;
     }
 }

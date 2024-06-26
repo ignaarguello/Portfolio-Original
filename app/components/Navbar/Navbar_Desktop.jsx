@@ -17,9 +17,9 @@ export default function Navbar_Desktop() {
                     <Link href='/'> <img src="../images/logo-ia.png" alt="Logo Arguello Ignacio Developer" id='logo-ia-desktop' /></Link>
                 </div>
                 <div className="containers-navbar-desktop">
-                    <Link id='link-ref__navbar-desktop' href='/about'>Sobre Mi</Link>
-                    <Link id='link-ref__navbar-desktop' href='/projects'>Proyectos</Link>
-                    <Link id='link-ref__navbar-desktop' href='/contact'>Contacto</Link>
+                    <Link id='link-ref__navbar-desktop' href='/pages/about'>Sobre Mi</Link>
+                    <Link id='link-ref__navbar-desktop' href='/pages/projects'>Proyectos</Link>
+                    <Link id='link-ref__navbar-desktop' href='/pages/contacto'>Contacto</Link>
                 </div>
                 <div className="containers-navbar-desktop">
                     <Link id='contenedor-social-media__navbar-desktop' href='https://www.instagram.com/ignaarguello_/'><FiInstagram className='logo-social-media__navbar-desktop' /></Link>
