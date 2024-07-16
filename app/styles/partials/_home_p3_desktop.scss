@@ -11,6 +11,7 @@
         height: 100vh;
         padding: 2rem;
         z-index: 10;
+        background-color: #27272a;
     }
 
     #contenedorProyectos_HomeP3_DESK {
@@ -23,7 +24,7 @@
     }
 
     .CardProyecto_HomeP3 {
-       /*  border: 2px solid red; */
+        /*  border: 2px solid red; */
         width: 29rem;
         height: max-content;
         display: flex;
@@ -32,26 +33,32 @@
         cursor: pointer;
     }
 
-    .ImageCard_HomeP3{
+    .ImageCard_HomeP3 {
         /* border: 2px solid sandybrown; */
         width: 100%;
         height: 24rem;
     }
 
-    .TituloNombreCard_HomeP3{
+    .TituloNombreCard_HomeP3 {
         margin-top: 1rem;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        color: whitesmoke;
     }
 
-    .ContenedorIconosNavegacion_HomeP3{
-/*         border: 2px solid gold; */
+    .TipoProyectoCard_HomeP3 {
+        color: whitesmoke;
+        margin-top: 1.5rem;
+    }
+
+    .ContenedorIconosNavegacion_HomeP3 {
+        /*         border: 2px solid gold; */
         display: flex;
         flex-direction: row-reverse;
         gap: 1rem;
         margin-top: .8rem;
     }
 
-    .cont-ref__Home-P3{
+    .cont-ref__Home-P3 {
         height: 2.5rem;
         width: 2.5rem;
     }

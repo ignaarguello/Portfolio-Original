@@ -14,7 +14,7 @@ import { BsFillShareFill } from "react-icons/bs";
 export default function Home_P3_desktop() {
   return (
     <div id="contenedor-general__HomeP3-D">
-      <IndexPage title="02.Proyectos" align="right" />
+      <IndexPage title="02.Proyectos" align="right" color='whitesmoke' />
       <div id="contenedorProyectos_HomeP3_DESK">
         {proyectos.map((elem) => (
           <div className="CardProyecto_HomeP3">
@@ -29,7 +29,7 @@ export default function Home_P3_desktop() {
               }}
             ></div>
             <h2 className="TituloNombreCard_HomeP3">{elem.nombre}</h2>
-            <span>{elem.type}</span>
+            <span className="TipoProyectoCard_HomeP3">{elem.type}</span>
             <div className="ContenedorIconosNavegacion_HomeP3">
               <Link
                 className="cont-ref__Home-P3"
