@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap");
 @tailwind base;
 @tailwind components;
@@ -786,15 +787,18 @@
   }
 }
 
+/* * Macbook Air y Laptops */
 @media screen and (min-width: 1280px) {
+  /* Contenedor Padre */
   #container-general__HomeP2-D {
     /* border: 2px solid greenyellow; */
-    height: 80vh;
+    height: 95vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     z-index: 2;
   }
+  /* Subcontenedor 👀 */
   #subContenedorGeneral_HomeP2-D {
     /* border: 2px solid red; */
     width: 100%;
@@ -804,16 +808,39 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
+  #contenedorTituloIndex_HomeP3 {
+    /*  border: 2px solid lightblue; */
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    padding: 2rem 2rem 0rem 0rem;
+  }
+  /* Contenedor donde se encuentran los selectores y los iconos */
+  #contenedorHabilidadesYLogos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2rem;
+    margin-top: 7rem;
+  }
+  /* Contenedor con selectores 'Frontend' - 'Backend' */
   .div-interiores__HomeP2-D:nth-child(1) {
-    /*  border: 2px solid red; */
+    /*         border: 2px solid red; */
     z-index: 5;
-    width: 25%;
-    height: 80%;
     width: 30%;
+    height: 28rem;
     /*   border-top: 2px solid grey; */
     border-right: 1.5px solid grey;
     margin-left: 2rem;
@@ -833,7 +860,7 @@
   .div-interiores__HomeP2-D:nth-child(2) {
     /* border: 2px solid brown; */
     width: 65%;
-    height: 80%;
+    height: 28rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -877,7 +904,7 @@
     margin: 0 auto;
   }
   #container-second-eachSkill__HomeP2-D {
-    /* border: 1px solid red; */
+    /*  border: 1px solid red; */
     width: 100%;
     height: 100%;
     display: -webkit-box;
@@ -892,7 +919,6 @@
         justify-content: space-around;
   }
   .container-per-each-skill__HomeP2-D {
-    /* border: 1px groove gray; */
     text-align: center;
     width: calc(25%);
     height: 50%;
@@ -926,6 +952,23 @@
             transform: scale(1.2);
     cursor: pointer;
     color: var(--color-hex) !important;
+  }
+  .elemento-activo_HomeP3 {
+    color: white;
+    font-size: 1.8rem;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    padding-left: 8px;
+    transition: .5s ease;
+    /* Animación de 0.5 segundos con aceleración suave */
+    cursor: pointer;
+  }
+  .elemento-activo_HomeP3:before {
+    content: "•";
+    /* El símbolo que quieres mostrar */
+    margin-right: 5px;
+    /* Espacio a la izquierda del punto */
+    color: #6366F1;
   }
 }
 
@@ -1008,7 +1051,6 @@
     text-align: center;
   }
   .cont-ref__Home-P3 {
-    border: 2.5px solid gray;
     border-radius: 50%;
     height: 3rem;
     width: 3rem;
@@ -1131,9 +1173,8 @@
     gap: 1.5rem;
   }
   .cont-ref__Home-P3 {
-    border: 2.5px solid gray;
-    height: 3.2rem;
-    width: 3.2rem;
+    height: 3rem;
+    width: 3rem;
     background-color: rgba(0, 0, 0, 0.925);
   }
   .card-project__Home-P3 {
@@ -1198,6 +1239,7 @@
     height: 100vh;
     padding: 2rem;
     z-index: 10;
+    background-color: #27272a;
   }
   #contenedorProyectos_HomeP3_DESK {
     /* border: 2px solid skyblue; */
@@ -1238,7 +1280,12 @@
   }
   .TituloNombreCard_HomeP3 {
     margin-top: 1rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    color: whitesmoke;
+  }
+  .TipoProyectoCard_HomeP3 {
+    color: whitesmoke;
+    margin-top: 1.5rem;
   }
   .ContenedorIconosNavegacion_HomeP3 {
     /*         border: 2px solid gold; */
@@ -1260,7 +1307,7 @@
 
 @media screen and (min-width: 360px) {
   #container-general__Home-P4 {
-    /*  border: 2px solid blue; */
+    /* border: 2px solid blue; */
     background-color: #f1f1f1;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1275,52 +1322,49 @@
     min-height: 125vh;
     z-index: 2;
   }
-  #titulo-contacto__Home-P4 {
-    /* border: 2px solid red; */
-    color: #334155;
-    font-size: 3.2rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 200;
-    -webkit-animation: textColor 8s infinite;
-            animation: textColor 8s infinite;
-    margin: 1.7rem .4rem 1rem 1rem;
+  #seccion-1__HomeP4,
+  #seccion-2__HomeP4 {
+    /*  border: 2px solid green; */
+    width: 100%;
   }
   #container-titleAndLogo__Home-P4 {
+    /*  border: 2px solid red; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* Alineacion Horizontal  */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  #titulo-contacto__Home-P4 {
+    /* border: 2px solid red; */
+    color: #334155;
+    font-size: 3.2rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 200;
+    -webkit-animation: textColor 8s infinite;
+            animation: textColor 8s infinite;
+    margin: 1.7rem 0.4rem 1rem 1rem;
   }
   #logo-contacto__Home-P4 {
     width: 1.6rem;
     height: 1.8rem;
-    margin-top: .9rem;
+    margin-top: 0.9rem;
     color: #06b6d4;
   }
   #texto-contacto__Home-P4 {
     font-size: 18px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     margin: 0 1rem;
     text-align: center;
     color: #262626;
     font-weight: 700;
-  }
-  .hr {
-    width: 100%;
-    border: 1.5px solid black;
-    margin: 10px 0;
-  }
-  .hr:nth-of-type(1) {
-    width: 70%;
-  }
-  .hr:nth-of-type(2) {
-    width: 50%;
-  }
-  .hr:nth-of-type(3) {
-    width: 30%;
-    margin-bottom: 2rem;
   }
 }
 
@@ -1337,25 +1381,78 @@
     font-size: 3.5rem;
     margin-top: 1.9rem;
   }
-  .hr {
-    border: 2px solid black;
-    margin: 15px 0;
-  }
-  .hr:nth-of-type(1) {
-    width: 55%;
-  }
-  .hr:nth-of-type(2) {
-    width: 35%;
-  }
-  .hr:nth-of-type(3) {
-    width: 15%;
-    margin-bottom: 2rem;
-  }
   #texto-contacto__Home-P4 {
     font-size: 22px;
   }
 }
 
+/* Macbook y Laptops */
+@media screen and (min-width: 1440px) {
+  #container-general__Home-P4 {
+    height: 100vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  #seccion-1__HomeP4,
+  #seccion-2__HomeP4 {
+    height: 100%;
+    /* border: 2px solid green; */
+  }
+  /* 1 */
+  #seccion-1__HomeP4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    gap: 1rem;
+  }
+  /* 2 */
+  #seccion-2__HomeP4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1.2rem;
+  }
+  #container-titleAndLogo__Home-P4 {
+    /*  border: 2px solid red; */
+    width: 100%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-right: 2rem;
+  }
+  #texto-contacto__Home-P4 {
+    font-size: 22px;
+    font-weight: 300;
+  }
+  #TituloEmail__HomeP4 {
+    font-weight: bold;
+    margin: 1rem 0;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 8rem;
+  }
+}
+
+/* Android - Mobile */
 @media screen and (min-width: 360px) {
   #form-contact__Home-P4 {
     /* border: 2px solid red; */
@@ -1424,13 +1521,14 @@
   }
 }
 
+/* Tablets */
 @media screen and (min-width: 768px) {
   #form-contact__Home-P4 {
     /* border: 2px solid red; */
     margin: 0rem 0;
     width: 80%;
     gap: 1.7rem;
-    padding: 2rem;
+    padding: 0rem;
   }
   #form-contact__Home-P4 textarea {
     height: 17rem;
@@ -1467,6 +1565,57 @@
   }
 }
 
+/* Macbook y Laptops */
+@media screen and (min-width: 1440px) {
+  #form-contact__Home-P4 {
+    /* border: 2px solid blue; */
+    margin-top: 3rem;
+    padding: 0rem;
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    gap: 1.5rem;
+  }
+  #form-contact__Home-P4 input,
+  textarea {
+    padding: 8px;
+    background-color: #0c0c0cd2;
+    width: 85%;
+    border-radius: 10px 0px 0px 10px;
+  }
+  #form-contact__Home-P4 input,
+  textarea::-webkit-input-placeholder {
+    color: white;
+    font-weight: 300;
+  }
+  #form-contact__Home-P4 input,
+  textarea:-ms-input-placeholder {
+    color: white;
+    font-weight: 300;
+  }
+  #form-contact__Home-P4 input,
+  textarea::-ms-input-placeholder {
+    color: white;
+    font-weight: 300;
+  }
+  #form-contact__Home-P4 input,
+  textarea::placeholder {
+    color: white;
+    font-weight: 300;
+  }
+}
+
 /* Estilos del componente 'Social Media Grid' */
 .contenedor-grid-socialMedia__Home-P4 {
   /* border: 2px solid blue; */
@@ -1486,6 +1635,7 @@
       -ms-flex-align: center;
           align-items: center;
   gap: .4rem;
+  padding: 1rem;
 }
 
 .item-grid-socialMedia__Home-P4 {
