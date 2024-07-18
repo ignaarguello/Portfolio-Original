@@ -36,26 +36,28 @@ export default function FormContact() {
     };
 
     return (
-        <form onSubmit={handleSubmit} id='form-contact__Home-P4'>
-            <input
-                type="text"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                placeholder="Nombre"
-            />
-            <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Correo electrónico"
-            />
-            <textarea
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-                placeholder="Mensaje"
-            ></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+        <>
+            <form onSubmit={handleSubmit} id='form-contact__Home-P4'>
+                <input
+                    type="text"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    placeholder="Nombre"
+                />
+                <input
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder="Correo electrónico"
+                />
+                <textarea
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                    placeholder="Mensaje"
+                ></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </>
     );
 }
 

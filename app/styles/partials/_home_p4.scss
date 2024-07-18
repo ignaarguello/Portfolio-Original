@@ -92,7 +92,7 @@
     //* Contenedor General
     #container-general__Home-P4 {
         height: 100vh;
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
 
     //* Seccion 1 y 2
@@ -107,14 +107,14 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        gap: 1rem;
     }
 
     /* 2 */
     #seccion-2__HomeP4 {
+      /*   border: 2px solid seagreen; */
         display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
         gap: 1.2rem;
     }
@@ -127,17 +127,9 @@
         padding-right: 2rem;
     }
 
-    // * Texto 'Te Invito' 
+    // * Texto 'Te Invito a conectarte' 
     #texto-contacto__Home-P4 {
         font-size: 22px;
         font-weight: 300;
-    }
-
-    // * Subtitulo 'El mail sera respondido a la brevedad'
-    #TituloEmail__HomeP4 {
-        font-weight: bold;
-        margin: 1rem 0;
-        align-self: flex-start;
-        margin-left: 8rem;
     }
 }

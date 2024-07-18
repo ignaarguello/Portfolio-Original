@@ -1,109 +1,173 @@
- /* Estilos del componente 'Social Media Grid' */
- .contenedor-grid-socialMedia__Home-P4 {
-     /* border: 2px solid blue; */
-     margin: 1.5rem 0;
-     width: 100%;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     gap: .4rem;
-     padding: 1rem;
- }
+/* Android - Mobile */
+@media screen and (min-width:360px) {
 
- .item-grid-socialMedia__Home-P4 {
-     /*  border: 2px solid red; */
-     background-color: #111111e0;
-     padding: 10px;
-     display: flex;
-     gap: .1rem;
-     align-items: center;
-     text-decoration: none;
-     border-radius: 15px;
-     width: 95%;
- }
+    //* Contenedor General
+    .contenedor-grid-socialMedia__Home-P4 {
+        /* border: 2px solid blue; */
+        margin: 1.5rem 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .4rem;
+        padding: 1rem;
+    }
 
- .cont-logo-socialMed__Home-P4 {
-     /* border: 2px solid green; */
-     padding: 9px;
-     border-radius: 50%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
+    //* Contenedor de cada SocialMedia
+    .item-grid-socialMedia__Home-P4 {
+        /*  border: 2px solid red; */
+        background-color: #111111e0;
+        padding: 10px;
+        display: flex;
+        gap: .1rem;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 15px;
+        width: 95%;
+    }
 
- .logo-socialMedia__Home-P4 {
-     /* border: 2px solid red; */
-     width: 1.8rem;
-     height: 1.8rem;
- }
+    //* Contenedor del Icon
+    .cont-logo-socialMed__Home-P4 {
+        /* border: 2px solid green; */
+        padding: 9px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
- .item-grid-socialMedia__Home-P4 h3 {
-     /*  border: 2px solid red; */
-     font-weight: 600;
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     font-size: 14px;
-     margin-top: 10px;
- }
+    //* Propiedades del Icon Puntualmente
+    .logo-socialMedia__Home-P4 {
+        /* border: 2px solid red; */
+        width: 1.8rem;
+        height: 1.8rem;
+    }
 
- .text-instagram {
-     background-image: linear-gradient(to right, #D64EC1, #9e2a91, #9833ac, #c13584, #D64EC1, #833ab4);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     background-clip: text;
-     text-fill-color: transparent;
- }
+    //* Propiedades del nombre de cada SocialMedia
+    .item-grid-socialMedia__Home-P4 h3 {
+        /*  border: 2px solid red; */
+        font-weight: 600;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        margin-top: 10px;
+    }
 
- /* Estilos para cada contenedor de Social Media */
- .item-grid-socialMedia__Home-P4:nth-child(1) {
-     color: #C5439D;
- }
+    //* Background Gradiente del nombre de INSTAGRAM
+    .text-instagram {
+        background-image: linear-gradient(to right, #D64EC1, #9e2a91, #9833ac, #c13584, #D64EC1, #833ab4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
 
- .item-grid-socialMedia__Home-P4:nth-child(2) {
-     color: #2B7DBE;
- }
+    /* Estilos para cada contenedor de Social Media */
+    //* Instagram
+    .item-grid-socialMedia__Home-P4:nth-child(1) {
+        color: #C5439D;
+    }
 
- .item-grid-socialMedia__Home-P4:nth-child(3) {
-     color: #cacaca;
- }
+    //* Linkedin
+    .item-grid-socialMedia__Home-P4:nth-child(2) {
+        color: #2B7DBE;
+    }
 
- .item-grid-socialMedia__Home-P4:nth-child(4) {
-     color: #64C351;
- }
+    //* Github
+    .item-grid-socialMedia__Home-P4:nth-child(3) {
+        color: #cacaca;
+    }
 
- @media screen and (min-width:768px) {
-     .contenedor-grid-socialMedia__Home-P4 {
-         /*  border: 2px solid blue; */
-         margin: 2rem 0;
-         display: flex;
-         flex-direction: row;
-         gap: .6rem;
-         flex-wrap: wrap;
-     }
+    //* Whatsapp
+    .item-grid-socialMedia__Home-P4:nth-child(4) {
+        color: #64C351;
+    }
 
-     .item-grid-socialMedia__Home-P4 {
-         /* border: 2px solid red; */
-         background-color: #111111ec;
-         align-items: center;
-         gap: 0;
-         justify-content: center;
-         width: 38%;
-         height: 13rem;
-         transition: .5s ease-in-out;
-         &:hover{
+}
+
+/* Tablets */
+@media screen and (min-width:768px) {
+
+    //* Contenedor General
+    .contenedor-grid-socialMedia__Home-P4 {
+        /*  border: 2px solid blue; */
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: row;
+        gap: .6rem;
+        flex-wrap: wrap;
+    }
+
+    //* Contenedor de cada Social Media
+    .item-grid-socialMedia__Home-P4 {
+        /* border: 2px solid red; */
+        background-color: #111111ec;
+        align-items: center;
+        gap: 0;
+        justify-content: center;
+        width: 38%;
+        height: 13rem;
+        transition: .3s ease;
+
+        &:hover {
             background-color: #111111d5;
-         }
-     }
+        }
+    }
 
-     .item-grid-socialMedia__Home-P4 h3 {
-         /*  border: 2px solid red; */
-         font-weight: 600;
-         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-         font-size: 22px;
-         margin-top: 10px;
-     }
+    //* Nombre de cada Social Media (H3)
+    .item-grid-socialMedia__Home-P4 h3 {
+        /*  border: 2px solid red; */
+        font-weight: 300;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 22px;
+        margin-top: 10px;
+    }
 
-     .item-grid-socialMedia__Home-P4:nth-child(2) {
-         margin-top: 5px;
-     }
- }
+    //* Item 2
+    .item-grid-socialMedia__Home-P4:nth-child(2) {
+        margin-top: 5px;
+    }
+}
+
+/* Macbook y Laptops */
+@media screen and (min-width:1440px) {
+
+    //* Contenedor General
+    .contenedor-grid-socialMedia__Home-P4 {
+        /* border: 2px solid skyblue; */
+        width: 70%;
+        padding: 1rem;
+        margin: 0;
+        display: flex;
+        gap: .6rem;
+        justify-content: flex-start;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+
+    //* Contenedor de cada Social Media
+    .item-grid-socialMedia__Home-P4 {
+        /* border: 2px solid red; */
+        width: 13rem;
+        height: 11rem;
+        /* Neumorfismo */
+        border-radius: 30px;
+        background: #292929;
+        box-shadow: inset 20px 20px 60px #222222,
+            inset -20px -20px 60px #303030;
+        flex-direction: column;
+
+        &:hover {
+            background: #1c1c1c;
+            box-shadow: inset 11px 11px 22px #121212,
+                inset -11px -11px 22px #262626;
+        }
+    }
+
+    //* Propiedades del nombre de cada SocialMedia
+    .item-grid-socialMedia__Home-P4 h3 {
+        /*  border: 2px solid red; */
+        margin-top: 0px;
+        font-size: 18px;
+    }
+}
