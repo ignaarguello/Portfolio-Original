@@ -80,23 +80,33 @@
     //* Contenedor general del Formulario
     #form-contact__Home-P4 {
         /* border: 2px solid blue; */
-        margin-top: 3rem;
+        margin-top: 2rem;
         padding: 0rem;
-        width: 80%;
+        width: 75%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
+        align-self: center;
     }
+
 
     //* Propiedades de Inputs y TextArea
     #form-contact__Home-P4 input,
     textarea {
         padding: 15px;
-        background-color: #0c0c0cd2;
         width: 85%;
-        border-radius: 10px;
+        color: black;
+        border-radius: 0;
+        border-bottom: 1px solid white;
+        background-blend-mode: multiply;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    // * Propiedades para el textarea
+    textarea {
+        border: 1px solid white;
     }
 
     //* Propiedades para Placeholder
@@ -105,5 +115,14 @@
         color: white;
         font-weight: 300;
         font-size: 15px;
+    }
+
+    // * Propiedades del Button - Form
+    #form-contact__Home-P4 button {
+        padding: 12px;
+        width: 50%;
+        font-weight: 400;
+        margin-top: 2rem;
+        background-color: red;
     }
 }
