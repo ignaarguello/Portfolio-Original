@@ -1402,6 +1402,7 @@
   }
   /* 1 */
   #seccion-1__HomeP4 {
+    /* border: 2px dashed red; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1409,9 +1410,18 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1rem;
+    background-image: url(https://marketplace.canva.com/nqEa8/MAEUhKnqEa8/1/s2/canva-indoor-plants-on-the-pot-MAEUhKnqEa8.jpg);
+    background-position-y: top;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.727);
   }
   /* 2 */
   #seccion-2__HomeP4 {
@@ -1442,6 +1452,18 @@
   #texto-contacto__Home-P4 {
     font-size: 22px;
     font-weight: 300;
+  }
+  #titulo-Formspree_HomeP4 {
+    /* border: 2px solid slateblue; */
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 200;
+  }
+  .B-Negrita {
+    color: red;
+    font-weight: bold;
   }
 }
 
@@ -1562,9 +1584,9 @@
 @media screen and (min-width: 1440px) {
   #form-contact__Home-P4 {
     /* border: 2px solid blue; */
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 0rem;
-    width: 80%;
+    width: 75%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1579,13 +1601,21 @@
         -ms-flex-pack: center;
             justify-content: center;
     gap: 1.5rem;
+    -ms-flex-item-align: center;
+        align-self: center;
   }
   #form-contact__Home-P4 input,
   textarea {
     padding: 15px;
-    background-color: #0c0c0cd2;
     width: 85%;
-    border-radius: 10px;
+    color: black;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+    background-blend-mode: multiply;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  textarea {
+    border: 1px solid white;
   }
   #form-contact__Home-P4 input::-webkit-input-placeholder,
   textarea::-webkit-input-placeholder {
@@ -1610,6 +1640,13 @@
     color: white;
     font-weight: 300;
     font-size: 15px;
+  }
+  #form-contact__Home-P4 button {
+    padding: 12px;
+    width: 50%;
+    font-weight: 400;
+    margin-top: 2rem;
+    background-color: red;
   }
 }
 
@@ -1764,6 +1801,7 @@
             align-items: flex-end;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin-top: 2rem;
   }
   .item-grid-socialMedia__Home-P4 {
     /* border: 2px solid red; */

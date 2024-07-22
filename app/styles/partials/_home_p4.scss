@@ -104,9 +104,17 @@
 
     /* 1 */
     #seccion-1__HomeP4 {
+        /* border: 2px dashed red; */
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        background-image: url(https://marketplace.canva.com/nqEa8/MAEUhKnqEa8/1/s2/canva-indoor-plants-on-the-pot-MAEUhKnqEa8.jpg);
+        background-position-y: top;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: rgba(0, 0, 0, 0.727);
     }
 
     /* 2 */
@@ -131,5 +139,21 @@
     #texto-contacto__Home-P4 {
         font-size: 22px;
         font-weight: 300;
+    }
+
+    //* Titulo de 'Api' de Formspree
+    #titulo-Formspree_HomeP4{
+        /* border: 2px solid slateblue; */
+        font-size: 1.8rem;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        font-weight: 200;
+    }
+
+    //* Clase NEGRITA
+    .B-Negrita{
+        color: red;
+        font-weight: bold;
     }
 }
