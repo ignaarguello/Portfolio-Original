@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 //! Reseteo General - OBLIGATORIO
+
+:root {
+    --color--principal: #4F46E5;
+}
+
 * {
     margin: 0;
     padding: 0;
