@@ -74,12 +74,12 @@
     }
 
     //* Github
-    .item-grid-socialMedia__Home-P4:nth-child(3) {
+    .item-grid-socialMedia__Home-P4:nth-child(1) {
         color: #cacaca;
     }
 
     //* Whatsapp
-    .item-grid-socialMedia__Home-P4:nth-child(4) {
+    .item-grid-socialMedia__Home-P4:nth-child(3) {
         color: #64C351;
     }
 
@@ -134,8 +134,8 @@
 
     //* Contenedor General
     .contenedor-grid-socialMedia__Home-P4 {
-        /* border: 2px solid skyblue; */
-        width: 70%;
+       /*  border: 2px solid skyblue; */
+        width: 100%;
         padding: 1rem;
         margin: 0;
         display: flex;

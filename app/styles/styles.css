@@ -3,6 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+  --color--principal: #4F46E5;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1233,13 +1237,59 @@
 }
 
 @media screen and (min-width: 1280px) {
+  @-webkit-keyframes backgroundToBlack {
+    0% {
+      background-color: transparent;
+    }
+    25% {
+      background-color: rgba(43, 43, 42, 0.1);
+      /* Transparente con un ligero tinte */
+    }
+    50% {
+      background-color: rgba(43, 43, 42, 0.3);
+      /* Aumenta la opacidad */
+    }
+    75% {
+      background-color: rgba(43, 43, 42, 0.5);
+      /* Aumenta aún más la opacidad */
+    }
+    100% {
+      background-blend-mode: multiply;
+      background-color: #27272a44;
+    }
+  }
+  @keyframes backgroundToBlack {
+    0% {
+      background-color: transparent;
+    }
+    25% {
+      background-color: rgba(43, 43, 42, 0.1);
+      /* Transparente con un ligero tinte */
+    }
+    50% {
+      background-color: rgba(43, 43, 42, 0.3);
+      /* Aumenta la opacidad */
+    }
+    75% {
+      background-color: rgba(43, 43, 42, 0.5);
+      /* Aumenta aún más la opacidad */
+    }
+    100% {
+      background-blend-mode: multiply;
+      background-color: #27272a44;
+    }
+  }
   #contenedor-general__HomeP3-D {
     display: block;
     /*   border: 2px solid greenyellow; */
     height: 100vh;
     padding: 2rem;
     z-index: 10;
-    background-color: #27272a;
+    background-image: url(https://marketplace.canva.com/OOWzI/MAEX42OOWzI/1/s2/canva-black-wall-background-MAEX42OOWzI.jpg);
+    background-size: cover;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    animation: backgroundToBlack 3s ease infinite normal reverse;
   }
   #contenedorProyectos_HomeP3_DESK {
     /* border: 2px solid skyblue; */
@@ -1421,7 +1471,7 @@
     background-position-y: top;
     background-size: cover;
     background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0.727);
+    background-color: rgba(0, 0, 0, 0.627);
   }
   /* 2 */
   #seccion-2__HomeP4 {
@@ -1462,7 +1512,7 @@
     font-weight: 200;
   }
   .B-Negrita {
-    color: red;
+    color: var(--color--principal);
     font-weight: bold;
   }
 }
@@ -1608,14 +1658,28 @@
   textarea {
     padding: 15px;
     width: 85%;
-    color: black;
     border-radius: 0;
-    border-bottom: 1px solid white;
+    border-left: 1px solid white;
     background-blend-mode: multiply;
     background-color: rgba(255, 255, 255, 0);
   }
+  #form-contact__Home-P4 input:focus {
+    outline: none;
+    border: none;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+  }
   textarea {
     border: 1px solid white;
+    border-radius: 2px;
+    height: 14rem;
+    max-height: 15rem;
+    min-height: 205;
+  }
+  textarea:focus {
+    -webkit-box-shadow: 0 0 7px rgba(255, 255, 255, 0.5);
+            box-shadow: 0 0 7px rgba(255, 255, 255, 0.5);
+    outline: none;
   }
   #form-contact__Home-P4 input::-webkit-input-placeholder,
   textarea::-webkit-input-placeholder {
@@ -1646,7 +1710,7 @@
     width: 50%;
     font-weight: 400;
     margin-top: 2rem;
-    background-color: red;
+    background-color: var(--color--principal);
   }
 }
 
@@ -1728,10 +1792,10 @@
   .item-grid-socialMedia__Home-P4:nth-child(2) {
     color: #2B7DBE;
   }
-  .item-grid-socialMedia__Home-P4:nth-child(3) {
+  .item-grid-socialMedia__Home-P4:nth-child(1) {
     color: #cacaca;
   }
-  .item-grid-socialMedia__Home-P4:nth-child(4) {
+  .item-grid-socialMedia__Home-P4:nth-child(3) {
     color: #64C351;
   }
 }
@@ -1785,8 +1849,8 @@
 /* Macbook y Laptops */
 @media screen and (min-width: 1440px) {
   .contenedor-grid-socialMedia__Home-P4 {
-    /* border: 2px solid skyblue; */
-    width: 70%;
+    /*  border: 2px solid skyblue; */
+    width: 100%;
     padding: 1rem;
     margin: 0;
     display: -webkit-box;

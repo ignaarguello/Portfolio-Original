@@ -21,7 +21,7 @@ export default function Home_P4() {
             {/* Seccion - 2 */}
             <section id='seccion-2__HomeP4'>
                 <div id='container-titleAndLogo__Home-P4'>
-                    <IndexPage title='04.Contacto' color='black' align='right' />
+                    <IndexPage title='03.Contacto' color='black' align='right' />
                 </div>
                 <h2>Panel de Redes Sociales</h2>
                 <SocialMediaGrid />

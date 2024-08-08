@@ -1,4 +1,11 @@
-// Proyecto destinado a Portfolio Personal.
+**Utilizamos formato 'Markdown' para este documento**
 
-// Comando para limpiar la cache
-rm -rf .next
+# Portfolio Personal - Proyecto Web
+
+- Proyecto creado para mostrar habilidades técnicas como de diseño y maquetado \*
+
+## Introduccion:
+
+- Instrucciones para iniciar el proyecto \*
+
+- **Modo Desarrollo: ** npm run dev /\*
