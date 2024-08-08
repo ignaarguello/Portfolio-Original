@@ -2,10 +2,10 @@
 
 # Portfolio Personal - Proyecto Web
 
-- Proyecto creado para mostrar habilidades técnicas como de diseño y maquetado \*
+- Proyecto creado para mostrar habilidades técnicas como de diseño y maquetado 
 
-## Introduccion:
+## Introduccion : 🚀
 
-- Instrucciones para iniciar el proyecto \*
+- Instrucciones para iniciar el proyecto \
 
-- **Modo Desarrollo: ** npm run dev /\*
+ **Modo Desarrollo: ** npm run dev /\
