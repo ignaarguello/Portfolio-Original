@@ -8,9 +8,9 @@
 
 - Instrucciones para iniciar el proyecto \
 
- **Modo Desarrollo: ** npm run dev 
+ **Modo Desarrollo:** npm run dev 
 
 
 ## Hosteo :
 
-- Este proyecto se encuentra alojado en el servidor de 'Vercel'. Pudiendo asi acceder desde cualquier metodo.
+- Este proyecto se encuentra alojado en el servidor de **Vercel**. Pudiendo asi acceder desde cualquier dispositivo.
