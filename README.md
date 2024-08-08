@@ -6,11 +6,12 @@
 
 ## Introduccion : 🚀
 
-- Instrucciones para iniciar el proyecto \
+### Despliegue 📦
 
- **Modo Desarrollo:** npm run dev 
+- **Modo Desarrollo:** npm run dev 
+- **Modo Produccion:** npm run build 
 
 
-## Hosteo :
+### Alojamiento 🏠 :
 
-- Este proyecto se encuentra alojado en el servidor de **Vercel**. Pudiendo asi acceder desde cualquier dispositivo.
+- Este proyecto se encuentra alojado en el servidor de **Vercel**. Pudiendo asi acceder desde **cualquier dispositivo**.
