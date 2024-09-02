@@ -18,4 +18,4 @@
 
 - Este proyecto se encuentra alojado en el servidor de **Vercel**. Pudiendo asi acceder desde **cualquier dispositivo**.
 
-**https://arguello-ignacio.vercel.app/**
+- **https://arguello-ignacio.vercel.app/**
