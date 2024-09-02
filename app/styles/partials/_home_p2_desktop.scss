@@ -126,6 +126,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
     }
 
     .elem-nombre__HomeP2-D {
@@ -141,7 +142,6 @@
 
     .logo-skill:hover {
         transition: .5s ease-in-out;
-        transform: scale(1.2);
         cursor: pointer;
         color: var(--color-hex) !important;
     }

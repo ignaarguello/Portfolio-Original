@@ -134,14 +134,13 @@
 
     //* Contenedor General
     .contenedor-grid-socialMedia__Home-P4 {
-       /*  border: 2px solid skyblue; */
         width: 100%;
         padding: 1rem;
         margin: 0;
         display: flex;
         gap: .6rem;
-        justify-content: flex-start;
-        align-items: flex-end;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
         margin-top: 2rem;
     }

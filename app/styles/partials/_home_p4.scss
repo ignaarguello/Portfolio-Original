@@ -30,7 +30,6 @@
         /* Alineacion Horizontal  */
         margin-top: 2rem;
         margin-bottom: 1rem;
-        display: none;
     }
 
     //* Propieades del Titulo Panes Redes Sociales
@@ -123,25 +122,8 @@
         padding-right: 2rem;
     }
 
-    // * Texto 'Te Invito a conectarte' 
-    #texto-contacto__Home-P4 {
-        font-size: 22px;
-        font-weight: 300;
-    }
-
-    //* Titulo de 'Api' de Formspree
-    #titulo-Formspree_HomeP4 {
-        /* border: 2px solid slateblue; */
-        font-size: 1.8rem;
-        color: white;
-        text-align: center;
-        padding: 1rem;
-        font-weight: 200;
-    }
-
-    //* Clase NEGRITA
-    .B-Negrita {
-        color: var(--color--principal);
-        font-weight: bold;
+    #TituloPanelRedesSociales__HomeP4{
+        font-size: 1.5rem;
+        margin-top: 3rem;
     }
 }
