@@ -9,13 +9,13 @@ export default function IndexPage(props) {
       display: "block", // Asegura que el elemento se comporte como un bloque
       color: color || "gray", // Color por defecto negro
       textAlign: props.align || "left", // Alineación por defecto a la izquierda
-      fontSize: '3rem',
+      fontSize: '3.3rem',
       fontWeight: '300',
     },
   };
 
   return (
-    <span style={styles.indexSectionHomeP1Desk} id="#indexSection">
+    <span style={styles.indexSectionHomeP1Desk} id="IndexSection">
       {title}
     </span>
   );

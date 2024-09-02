@@ -1,3 +1,4 @@
+'use client'
 import 'animate.css';
 
 
@@ -13,7 +14,6 @@ export default function Home_P1_Mobile() {
         <div id='container-texto__home__P1'>
           <p id='texto-home__P1' className='animate__animated animate__fadeIn animate__delay-2s animate__slow'>¡Hola! Mi nombre es Ignacio Argüello, soy Desarrollador Web especializado en crear experiencias digitales cautivadoras. Con una sólida base en diseño y desarrollo, mi objetivo es fusionar la estética y la funcionalidad para ofrecer soluciones web únicas y atractivas. Siempre busco crear experiencias digitales personalizadas y centradas en el usuario. Soy apasionado por la creación de sitios web intuitivos, accesibles y visualmente impactantes. Bienvenido a mi portfolio!</p>
         </div>
-        {/* <div id="button-descargarCV__Home__P1">Descargar CV</div> */}
       </div>
     </div>
   )

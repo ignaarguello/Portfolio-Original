@@ -11,7 +11,7 @@ export default function Home() {
       <Home_P1 />
       <Home_P3 />
       <Home_P4 />
-      {/* <Home_P2 /> */}
+      <Home_P2 />
       <ParticleComponent />
     </div>
   )

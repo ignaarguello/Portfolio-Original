@@ -15,7 +15,6 @@ export default function Home_P4() {
         <div id="container-general__Home-P4">
             {/* Seccion - 1 */}
             <section id='seccion-1__HomeP4'>
-                <h2 id='titulo-Formspree_HomeP4'>Gracias a la API de <b className='B-Negrita'>Formspree</b> podes enviarme un mail</h2>
                 <FormContact />
             </section>
             {/* Seccion - 2 */}
@@ -23,7 +22,7 @@ export default function Home_P4() {
                 <div id='container-titleAndLogo__Home-P4'>
                     <IndexPage title='03.Contacto' color='black' align='right' />
                 </div>
-                <h2>Panel de Redes Sociales</h2>
+                <h2 id='TituloPanelRedesSociales__HomeP4'>Panel de Redes Sociales</h2>
                 <SocialMediaGrid />
             </section>
         </div>
