@@ -930,6 +930,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    overflow: hidden;
   }
   .elem-nombre__HomeP2-D {
     color: white;
@@ -943,8 +944,6 @@
   .logo-skill:hover {
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
     cursor: pointer;
     color: var(--color-hex) !important;
   }
@@ -1383,7 +1382,6 @@
     /* Alineacion Horizontal  */
     margin-top: 2rem;
     margin-bottom: 1rem;
-    display: none;
   }
   #TituloPanelRedesSociales__HomeP4 {
     width: 100%;
@@ -1483,21 +1481,9 @@
             justify-content: flex-end;
     padding-right: 2rem;
   }
-  #texto-contacto__Home-P4 {
-    font-size: 22px;
-    font-weight: 300;
-  }
-  #titulo-Formspree_HomeP4 {
-    /* border: 2px solid slateblue; */
-    font-size: 1.8rem;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    font-weight: 200;
-  }
-  .B-Negrita {
-    color: var(--color--principal);
-    font-weight: bold;
+  #TituloPanelRedesSociales__HomeP4 {
+    font-size: 1.5rem;
+    margin-top: 3rem;
   }
 }
 
@@ -1833,7 +1819,6 @@
 /* Macbook y Laptops */
 @media screen and (min-width: 1440px) {
   .contenedor-grid-socialMedia__Home-P4 {
-    /*  border: 2px solid skyblue; */
     width: 100%;
     padding: 1rem;
     margin: 0;
@@ -1841,12 +1826,12 @@
     display: -ms-flexbox;
     display: flex;
     gap: .6rem;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin-top: 2rem;
